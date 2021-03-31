@@ -23,17 +23,17 @@ Example:
   "Snodar 1P0": {
     "release":{
       "file":"snodar-firmwarebundle-release.zip",
-      "time":"Mar 31, 2021 12:53am",
+      "time":1617229629,
       "version":"0.0.8"
     },
     "beta": {
       "file":"snodar-firmwarebundle-beta.zip",
-      "time":"Mar 31, 2021 12:53am",
+      "time":1617229629,
       "version":"0.0.8"
     },
     "nightly": {
       "file":"snodar-firmwarebundle-nightly.zip",
-      "time":"Mar 31, 2021 12:53am",
+      "time":1617229629,
       "version":"0.0.8"
     },
   }
@@ -48,7 +48,7 @@ Release Item as an interface:
     model: string,
     file: string,
     version: string,
-    time: Date,
+    time: number, //unix timestamp
     notes?: string[] //Notes are optional. 
   }
 ```
