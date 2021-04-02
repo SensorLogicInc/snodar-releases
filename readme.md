@@ -7,8 +7,11 @@
 * When building, take note of the dis.h defines for software revision, and model.
 
 > ~~To trigger automatic updating from the application, make sure that the version number in dis.h is greater than the last release.~~
+
 > Versioning will now be based off of a build timestamp, compared against target hardware, triggered by changes in the production repo.
 > firmware version should be changed between builds to give feedback on issues. Future implemtation could utilize a build-hash/tag id to guarantee unique identification of firmware versions on-device.
+
+> Build Archiving: When builds are archived, unsupported, deprecated etc., we will discontinue attaching them as assets to the tagged release. Instead, their json will persist, but the last released version for that target will contain appropriate tags (ie, theoretical snodar 0p1 would include `'release': {deprecated:true, archive:'link-to-tagged-release', file:'same-release-name.zip'}`)
 
 * Next, run the nordic script to create a firmware bundle.
 
