@@ -20,22 +20,25 @@ Example:
 
 ```json
 {
-  "Snodar 1P0": {
-    "release":{
-      "file":"snodar-firmwarebundle-release.zip",
-      "time":1617229629,
-      "version":"0.0.8"
-    },
-    "beta": {
-      "file":"snodar-firmwarebundle-beta.zip",
-      "time":1617229629,
-      "version":"0.0.8"
-    },
-    "nightly": {
-      "file":"snodar-firmwarebundle-nightly.zip",
-      "time":1617229629,
-      "version":"0.0.8"
-    },
+  "Snodar": {
+    "1p0": 
+    {
+      "release":{
+        "file":"snodar-firmwarebundle-release.zip",
+        "time":1617229629,
+        "version":"0.0.8"
+      },
+      "beta": {
+        "file":"snodar-firmwarebundle-beta.zip",
+        "time":1617229629,
+        "version":"0.0.8"
+      },
+      "nightly": {
+        "file":"snodar-firmwarebundle-nightly.zip",
+        "time":1617229629,
+        "version":"0.0.8"
+      }
+    }
   }
 }
 
@@ -46,6 +49,7 @@ Release Item as an interface:
 ```typescript
   interface ReleaseItem {
     model: string,
+    hw_rev: string,
     file: string,
     version: string,
     time: number, //unix timestamp
@@ -68,7 +72,7 @@ Release Item as an interface:
 1. Build each item in list
 1. For each successfully built item, bundle with appropriate key. Name bundle uniquely. (ie, model-version.zip)
 1. On successful bundle, create json object to represent bundle. 
-    - `[model]:{file:model-version.zip, version:version}, time:timestamp`
+    - `[model]:{[hw_rev]:{file:model-version.zip, version:version, time:timestamp}}`
 1. Merge all successful bundle json objects into new object: `{model1, model2...}`
 1. Write bundle json object to releases repository.
 1. Commit + Push + Tag Release
