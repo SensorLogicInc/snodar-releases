@@ -1,11 +1,11 @@
 {
-  "snodar":{
-    "1p0": {
-      "release": {
-        "version":"ble-octopus-0.1.5",
-        "time": 1617229629,
-        "file":"snodar1p0-ble-octopus-0.1.5.zip"
-      }
-    }
-  }
+	"snodar": {
+		"1P0": {
+			"release": {
+				"version": "snodar-snorlax-0.1.0",
+				"time": 1617229629,
+				"file": "snodar_snorlax_dfu.zip"
+			}
+		}
+	}
 }
