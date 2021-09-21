@@ -1,4 +1,4 @@
-# SNOdar Snow Depth Sensor by SensorLogic, Inc in Bozeman, MT
+# SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, MT
 <p align="center">
   <img src="images/sli_logo.png" />
 </p>
@@ -68,10 +68,10 @@ Play Store App                                                                  
 | Obliqueness           | From vertical, angle slant relative to measuring surface (RMSE ~3 cm @ 40 deg) | 0        | 30       | degrees       |
 
 ## Table of Contents
-- [User Guides](https://github.com/SensorLogicInc/snodar-releases/user_guides)
-- [SDI-12 Info](https://github.com/SensorLogicInc/snodar-releases/sdi12_info)
-- [Data Sheet](https://github.com/SensorLogicInc/snodar-releases/data_sheet)
-- [Releases Info](https://github.com/SensorLogicInc/snodar-releases/releases_info)
+- [User Guides](user_guides)
+- [SDI-12 Info](sdi12_info)
+- [Data Sheet](data_sheet)
+- [Releases Info](releases_info)
 - [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
 
 ## Folder Structure
