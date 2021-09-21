@@ -46,14 +46,14 @@ Play Store App                                                                  
 | Parameter             | Sub-Parameter Description                                                      | Min      | Max      | Units         |
 | --------------------- | ------------------------------------------------------------------------------ | -------- | -------- | ------------- |
 | Input Voltage         |                                                                                | 6        | 24       | volts         |
-| Operating Temperature |                                                                                | -40      | 60       | $^{\circ}$ C  |
-| Storage Temperature   |                                                                                | -40      | 85       | $^{\circ}$ C  |
+| Operating Temperature |                                                                                | -40      | 60       | deg C         |
+| Storage Temperature   |                                                                                | -40      | 85       | deg C         |
 | Mechanical Vibration  | Mil-STD-883D, Method 2007.2, 20 to 2000 Hz                                     |          | 20       | g             |
 | Mechanical Shock      | Mil-STD-883D, Method 2002.3, 1 msec, 1/2 sine, mounted                         |          | 500      | g             |
 | Ingress Protection    | Dust tight. Immersion, up to 1 meter (3 ft 3 in) depth                         | IP67     |          |               |
 | Corrosion Resistance  | MIL-A-8625, Hard-anodizing process                                             | Type III |          |               |
 |                       |                                                                                |          |          |               |
-| Accuracy              | Typical deviation from absolute depth                                          | $\pm$ 1  | $\pm$ 2  | cm            |
+| Accuracy              | Typical deviation from absolute depth                                          | +- 1     | +- 2     | cm            |
 | Resolution            | Minimum detectable depth change                                                | 0.3      | 1        | cm            |
 | Range                 | Distance from snow target                                                      | 0.09     | 9        | meters        |
 | Measurement Interval  | 1 minute granularity                                                           | 1        | 60       | minutes       |
@@ -70,7 +70,7 @@ Play Store App                                                                  
 ## Table of Contents
 - [User Guides](user_guides)
 - [SDI-12 Info](sdi12_info)
-- [Data Sheet](data_sheet)
+- [Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf)
 - [Releases Info](releases_info)
 - [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
 
