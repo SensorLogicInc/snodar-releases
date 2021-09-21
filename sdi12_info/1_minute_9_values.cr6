@@ -10,10 +10,10 @@ Alias SDI12(1)=sys_current
 Alias SDI12(2)=sys_voltage
 Alias SDI12(3)=internal_temp
 Alias SDI12(4)=imu_flag
-Alias SDI12(5)=heater_enable
-Alias SDI12(6)=pcb_temp
-Alias SDI12(7)=distance
-Alias SDI12(8)=snow_depth
+Alias SDI12(5)=distance
+Alias SDI12(6)=snow_depth
+Alias SDI12(7)=seasonal_snowfall
+Alias SDI12(8)=daily_snowfall
 Alias SDI12(9)=doy_swe
 
 Units BattV=Volts
@@ -21,9 +21,10 @@ Units PTemp_C=Deg C
 Units sys_current=mA
 Units sys_voltage=Volts
 Units internal_temp=Deg C
-Units pcb_temp=Deg C
 Units distance=Meters
 Units snow_depth=Meters
+Units seasonal_snowfall=Meters
+Units daily_snowfall=Meters
 Units doy_swe=Meters
 
 'Main Program
@@ -35,7 +36,7 @@ BeginProg
 		'Default CR6 Datalogger Wiring Panel Temperature measurement 'PTemp_C'
 		PanelTemp(PTemp_C,60)
 		'Generic SDI-12 Sensor measurements 'sys_current', 'sys_voltage', 'internal_temp', 
-		'imu_flag', 'heater_enable', 'pcb_temp', 'distance', 'snow_depth', and 'doy_swe'
+		'imu_flag', 'distance', 'snow_depth', 'seasonal_snowfall', 'daily_snowfall', and 'doy_swe'
 		SDI12Recorder(SDI12(),C1,"0","M!",1,0,-1)
 		'Call Data Tables and Store Data
 	NextScan

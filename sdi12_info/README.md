@@ -38,9 +38,19 @@ If the sensor is set up in `Manual` mode, the SDI-12 data logger actually initia
 ```
 0M!
 ```
-This will return a time delay in seconds that the logger needs to wait to then request the data using:
+This will return a time delay, in seconds, that the logger needs to wait to then request the data using:
 ```
 0D0!
+```
+
+To query if the sensor is active and responsive, use the following command and format:
+```
+<a>!
+```
+Where:
+```
+a: sensor address, e.g. 0
+!: terminates the command
 ```
 
 
