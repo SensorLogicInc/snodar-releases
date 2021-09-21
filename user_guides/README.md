@@ -30,6 +30,15 @@ Mount the sensor less than 9 meters from the ground and more than 9 cm from the 
 ### Obliqueness
 For best performance, rotationally mount the sensor so that it is normal to the ground, i.e. measuring perpendicular to the ground surface; however, it does have the ability to be mounted at angles or on hillsides, up to 30 degrees from normal.
 
+#### IMU Directionality
+- **Roll**: Rrotation about the axis running through the clamp mount (this is the rotation monitored in **Stormboard** mode, 20 degrees is ideal)
+- **Pitch**: Rotation about the axis running through the connector
+- **Yaw**: Rotation about the axis running through the top dome peak
+
+Roll                         |  Pitch                         | Yaw
+:---------------------------:|:------------------------------:|:----------------------------:
+![](images/snodar_roll.jpg)  |  ![](images/snodar_pitch.jpg)  | ![](images/snodar_yaw.jpg)
+
 ### Ground Preparation
 Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall grass below and around the sensor. Ideally, a level dirt pad is prepared below the sensor for the most accurate seasonal measurements.
 

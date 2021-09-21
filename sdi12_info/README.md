@@ -15,12 +15,12 @@ The 9 ordered values supplied over SDI-12 by the SNOdar in order are as follows:
 2. System Voltage (V)
 3. Internal Temperature (degs C)
 4. Orientation Flag (0 = normal, roll = bit 2, pitch = bit 1, yaw = bit 0)
-5. Heater Enable (0 = off, 1 = on)
-6. PCB Temperature (degs C)
-7. Distance (meters) (average over N measurements)
+5. Distance (meters)
 
 // DSP Data
-8. Seasonal Snow Depth
+6. Seasonal Snow Depth
+7. Seasonal Snowfall
+8. Daily New Snowfall
 9. Day-of-Year SWE (*currently NOT available, returns as -1)
 ```
 
@@ -33,5 +33,14 @@ followed by
 0D0!
 ```
 The above mentioned 9 pieces of ASCII data will be returned on the SDI-12 line. 
+
+If the sensor is set up in `Manual` mode, the SDI-12 data logger actually initiates a measurement using the following command:
+```
+0M!
+```
+This will return a time delay in seconds that the logger needs to wait to then request the data using:
+```
+0D0!
+```
 
 
