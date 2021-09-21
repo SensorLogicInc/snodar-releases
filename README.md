@@ -70,8 +70,7 @@ Play Store App                                                                  
 ## Table of Contents
 - [User Guides](user_guides)
 - [SDI-12 Info](sdi12_info)
-- [Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf)
-- [Releases Info](releases_info)
+- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
 - [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
 
 ## Folder Structure
