@@ -45,9 +45,9 @@ Play Store App                                                                  
 ## Specifications
 | Parameter             | Sub-Parameter Description                                                      | Min      | Max      | Units         |
 | --------------------- | ------------------------------------------------------------------------------ | -------- | -------- | ------------- |
-| Input Voltage         |                                                                                | 6        | 24       | volts         |
-| Operating Temperature |                                                                                | -40      | 60       | deg C         |
-| Storage Temperature   |                                                                                | -40      | 85       | deg C         |
+| Input Voltage         | Input voltage range (VDC)                                                      | 6        | 24       | volts         |
+| Operating Temperature | Outside, ambient operating temperature range                                   | -40      | 60       | deg C         |
+| Storage Temperature   | Inside, ambient storage temperature range                                      | -40      | 85       | deg C         |
 | Mechanical Vibration  | Mil-STD-883D, Method 2007.2, 20 to 2000 Hz                                     |          | 20       | g             |
 | Mechanical Shock      | Mil-STD-883D, Method 2002.3, 1 msec, 1/2 sine, mounted                         |          | 500      | g             |
 | Ingress Protection    | Dust tight. Immersion, up to 1 meter (3 ft 3 in) depth                         | IP67     |          |               |
@@ -65,7 +65,7 @@ Play Store App                                                                  
 |                       |                                                                                |          |          |               |
 | Weight                | Without and with mounting clamp, respectively                                  | 265      | 375      | grams         |
 | Size                  | 6.3 x 6.3 x 9.5 (W x L x H)                                                    |          |          | cm            |
-| Obliqueness           | From vertical, angle slant relative to measuring surface (RMSE ~3 cm @ 40 deg) | 0        | 30       | degrees       |
+| Obliqueness           | From vertical, angle slant relative to measuring surface                       | -30      | 30       | degrees       |
 
 ## Table of Contents
 - [User Guides](user_guides)
