@@ -3,12 +3,6 @@
   <img src="images/sli_logo.png" />
 </p>
 
-## Table of Contents
-- [User Guides](user_guides)
-- [SDI-12 Info](sdi12_info)
-- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
-- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
-
 ## Product Overview: Available for Purchase [HERE](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-snow-depth-sensor)
 SensorLogic's new SNOdar sensor is used for accurately and robustly monitoring snow depth and new snowfall in remote sensing applications, even during winter storm events.
 
@@ -74,6 +68,12 @@ Play Store App                                                                  
 | Weight                | Without and with mounting clamp, respectively                                  | 265      | 375      | grams         |
 | Size                  | 6.3 x 6.3 x 9.5 (W x L x H)                                                    |          |          | cm            |
 | Obliqueness           | From vertical, angle slant relative to measuring surface                       | -30      | 30       | degrees       |
+
+## Quick Links
+- [User Guides](user_guides)
+- [SDI-12 Info](sdi12_info)
+- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
+- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
 
 ## Folder Structure
 ```
