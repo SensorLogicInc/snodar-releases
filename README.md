@@ -10,7 +10,7 @@ SensorLogic's new SNOdar sensor is used for accurately and robustly monitoring s
 
 SNOdar measures seasonal snow depth and snowfall. Simultaneously, it can relay data over a serial RS-232 or SDI-12 bus to commercially available telemetry, i.e. Satcom, data logger, or cell modem. Moreover, it can record an entire season of data on its internal, nonvolatile data logger so there is no need to pair every sensor with a separate data logger;therefore, a large cost savings upon deployment.
 
-The sensor is small and lightweight, yet durable enough to monitor snow depth all season long at -40 C and colder. The unit is typically powered from +12 VDC (as low as +6V and as high as +24V) source and on average consumes less than 0.5 Watt. A small battery (e.g. ~50 Ah) and solar panel (e.g. ~10 W) is all that is needed for seasonal deployment, depending on lattitude. The unit can be set up to operate as a distance sensor, stormboard snow fall sensor, or a seasonal snow depth sensor. A powerful mobile App allows the user to quickly configure and deploy the unit as well as monitor real-time data when within Bluetooth range. As a stormboard sensor, view or download the latest storm snow total, wipe the board, and re-calibrate for the next snow fall event. Furthermore, within minutes of deployment set up the unit as a standalone depth/snowfall sensor and data logger. Return periodically with an App-enable mobile device to download the latest data and instantly upload the data to a cloud platform of your choice for viewing, management, or analysis.
+The sensor is small and lightweight, yet durable enough to monitor snow depth all season long at -40 degC and colder. The unit is typically powered from +12 VDC (as low as +6V and as high as +24V) source and on average consumes less than 0.5 Watt. A small battery (e.g. ~50 Ah) and solar panel (e.g. ~10 W) is all that is needed for seasonal deployment, depending on lattitude. The unit can be set up to operate as a distance sensor, stormboard snow fall sensor, or a seasonal snow depth sensor. A powerful mobile App allows the user to quickly configure and deploy the unit as well as monitor real-time data when within Bluetooth range. As a stormboard sensor, view or download the latest storm snow total, wipe the board, and re-calibrate for the next snowfall event. Furthermore, within minutes of deployment set up the unit as a standalone depth/snowfall sensor and data logger. Return periodically with an App-enable mobile device to download the latest data and instantly upload the data to a cloud platform of your choice for viewing, management, or analysis.
 
 <p align="center">
   <img src="images/splashscreen.png" />
@@ -50,7 +50,7 @@ Play Store App                                                                  
 | Storage Temperature   | Inside, ambient storage temperature range                                      | -40      | 85       | deg C         |
 | Mechanical Vibration  | Mil-STD-883D, Method 2007.2, 20 to 2000 Hz                                     |          | 20       | g             |
 | Mechanical Shock      | Mil-STD-883D, Method 2002.3, 1 msec, 1/2 sine, mounted                         |          | 500      | g             |
-| Ingress Protection    | Dust tight. Immersion, up to 1 meter (3 ft 3 in) depth                         | IP67     |          |               |
+| Ingress Protection    | Dust tight. Immersion, up to 1 meter depth                                     | IP67     |          |               |
 | Corrosion Resistance  | MIL-A-8625, Hard-anodizing process                                             | Type III |          |               |
 |                       |                                                                                |          |          |               |
 | Accuracy              | Typical deviation from absolute depth                                          | +- 1     | +- 2     | cm            |
@@ -59,7 +59,7 @@ Play Store App                                                                  
 | Measurement Interval  | 1 minute granularity                                                           | 1        | 60       | minutes       |
 |                       |                                                                                |          |          |               |
 | Current Consumption   | @ 12 VDC, with Heater ON                                                       | 0.250    | 0.260    | amps          |
-| Current Consumption   | @ 12 VDC,  with Heater OFF (Idle, Active)                                      | 0.035    | 0.045    | amps          |
+| Current Consumption   | @ 12 VDC, with Heater OFF (Idle, Active)                                       | 0.035    | 0.045    | amps          |
 | Power Consumption     | Max measured with heater ON                                                    | 0.42     | 3.2      | watts         |
 | Average Power         | Typical average seasonal power usage                                           | 0.5      |          | watts         |
 |                       |                                                                                |          |          |               |
@@ -81,7 +81,7 @@ Play Store App                                                                  
 ├── sdi12_info
 │   ├── README.md                       # Basic information on the SDI-12 interface and data
 │   ├── 1_minute_9_values.CR1X          # Logger program for CR1000X data loggers
-│   ├── 1_minute_9_values.cr5           # Logger program for CR6 data loggers
+│   ├── 1_minute_9_values.cr6           # Logger program for CR6 data loggers
 ├── data_sheet
 │   ├── SNOdar_Data_Sheet.pdf           # Main PDF data sheet
 ├── images                              # Contains the images used in the top level markdown file
