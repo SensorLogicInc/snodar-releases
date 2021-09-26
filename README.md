@@ -42,7 +42,7 @@ Play Store App                                                                  
 - RS-232 Satcom connectivity with commercially available devices (e.g. Rockblock Iridium)
 - Sensor orientation monitoring (e.g. high snow load, high wind, tower shifting)
 - Normal or oblique angle mounting (up to 30 degrees) for flexible mounting locations on inclines or stormboards
-- Low power deployment, $\leq$ 500 mW average consumption
+- Low power deployment, &le; 500 mW average consumption
 
 ## Specifications
 | Parameter             | Sub-Parameter Description                                                      | Min      | Max      | Units         |
