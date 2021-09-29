@@ -53,7 +53,7 @@ Play Store App                                                                  
 | Mechanical Vibration  | Mil-STD-883D, Method 2007.2, 20 to 2000 Hz                                     |          | 20       | g             |
 | Mechanical Shock      | Mil-STD-883D, Method 2002.3, 1 msec, 1/2 sine, mounted                         |          | 500      | g             |
 | Ingress Protection    | Dust tight. Immersion, up to 1 meter depth                                     | IP67     |          |               |
-| Corrosion Resistance  | MIL-A-8625, Hard-anodizing process                                             | Type II |          |               |
+| Corrosion Resistance  | MIL-A-8625, Aluminum anodizing process (6061 T6)                               | Type II  |          |               |
 |                       |                                                                                |          |          |               |
 | Accuracy              | Typical deviation from absolute depth                                          | +- 1     | +- 2     | cm            |
 | Resolution            | Minimum detectable depth change                                                | 0.3      | 1        | cm            |
