@@ -18,9 +18,9 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
   <img src="images/splashscreen.png" />
 </p>
 
-Play Store App                                                                                  |  iOS App Coming Soon!
+Play Store App                                                                                  |  iOS App Store
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
-[![](images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](images/apple-app-store-badge.png)](https://www.apple.com/app-store/)
+[![](images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
 ## Applications
 - SNOTEL Snow Depth Monitoring
