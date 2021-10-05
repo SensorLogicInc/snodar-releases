@@ -74,18 +74,21 @@ Play Store App                                                                  
 - [SDI-12 Info](sdi12_info)
 - [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
 - [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
+- [Privacy Policy](privacy-policy)
 
 ## Folder Structure
 ```
-├── user_guides
-│   ├── README.md                       # Quick Start Guide on the SNOdar sensor and setup via the mobile App
-│   └── images                          # Contains the images for this markdown file
+├── data_sheet
+│   ├── SNOdar_Data_Sheet.pdf           # Main PDF data sheet
+├── images                              # Contains the images used in the top level markdown file
+├── privacy-policy
+│   ├── README.md                       # Privacy policy markdown file
 ├── sdi12_info
 │   ├── README.md                       # Basic information on the SDI-12 interface and data
 │   ├── 1_minute_9_values.CR1X          # Logger program for CR1000X data loggers
 │   ├── 1_minute_9_values.cr6           # Logger program for CR6 data loggers
-├── data_sheet
-│   ├── SNOdar_Data_Sheet.pdf           # Main PDF data sheet
-├── images                              # Contains the images used in the top level markdown file
+├── user_guides
+│   ├── README.md                       # Quick Start Guide on the SNOdar sensor and setup via the mobile App
+│   └── images                          # Contains the images for this markdown file
 ```
 
