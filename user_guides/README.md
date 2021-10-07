@@ -45,9 +45,9 @@ Before **Setup** and **Calibration**, clear the ground of any debris, e.g. stick
 ## Download the App
 Depending on your mobile device of choice:
 
-- [SNOdar Mobile Android](https://play.google.com/store/apps/details?id=com.snodar)
-
-- [SNodar Mobile iOS](https://www.apple.com/app-store/)
+Play Store App                                                                                  |  iOS App Store
+:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
+[![](../images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](../images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
 ## Run the App
 
