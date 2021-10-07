@@ -197,9 +197,9 @@ Sensor Card Kebab Menu Location         |  Available Firmware Update
 	- Solid Yellow for length of measurement
 	- Solid White for length of calibration
 - BLE Connect
-	- Fad Blue -> Cyan -> White for 2 seconds
+	- Fade Blue -> Cyan -> White for 2 seconds
 - BLE Disconnect
-	- Fad White -> Cyan -> Blue for 2 seconds
+	- Fade White -> Cyan -> Blue for 2 seconds
 - Device Firmware Update (DFU) via Mobile device
 	- Magenta for 2 seconds preparing update into Cyan for the length of the upload, up to 60 seconds. The unit will reboot when updating is finished.
 - `Find Me` Feature on the _Home_ Kebab menu
