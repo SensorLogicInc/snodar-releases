@@ -195,14 +195,16 @@ Sensor Card Kebab Menu Location         |  Available Firmware Update
 	- 4 secs @ 5 Hz Red: Health Diagnostics **Failure**
 - Measurement
 	- Solid Yellow for length of measurement
+	- Solid White for length of calibration
 - BLE Connect
-	- Fad White to Blue for 3 seconds
+	- Fad Blue -> Cyan -> White for 2 seconds
 - BLE Disconnect
-	- Fad Blue to White for 3 seconds
-- Device Firmware Update (DFU) OTA from mobile device
-	- Magenta for 3 seconds into Cyan for the length of the upload, up to 30 seconds. The unit will reboot when finished updating.
-- `Find Me` Feature on the _Home_ Kebab menu (used to identify units when there are multiple sensors to configure)
-	 - Blue to White ping-pong for 4 seconds
+	- Fad White -> Cyan -> Blue for 2 seconds
+- Device Firmware Update (DFU) via Mobile device
+	- Magenta for 2 seconds preparing update into Cyan for the length of the upload, up to 60 seconds. The unit will reboot when updating is finished.
+- `Find Me` Feature on the _Home_ Kebab menu
+	 - Blue <-> White ping-pong for 4 seconds
+	 - Useful to identify units when there are multiple sensors to configure
 
 ### Sensor Error Notifications
 
