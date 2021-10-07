@@ -188,6 +188,22 @@ Sensor Card Kebab Menu Location         |  Available Firmware Update
 :--------------------------------------:|:------------------------------------------------:
 ![](images/dfu_menu.png)            | ![](images/dfu_update.png)
 
+### LED Legend
+
+- Upon Boot
+	- 4 secs @ 5 Hz Green: Health Diagnostis **Passing**
+	- 4 secs @ 5 Hz Red: Health Diagnostics **Failure**
+- Measurement
+	- Solid Yellow for length of measurement
+- BLE Connect
+	- Fad White to Blue for 3 seconds
+- BLE Disconnect
+	- Fad Blue to White for 3 seconds
+- Device Firmware Update (DFU) OTA from mobile device
+	- Magenta for 3 seconds into Cyan for the length of the upload, up to 30 seconds. The unit will reboot when finished updating.
+- `Find Me` Feature on the _Home_ Kebab menu (used to identify units when there are multiple sensors to configure)
+	 - Blue to White ping-pong for 4 seconds
+
 ### Sensor Error Notifications
 
 - Orientation Drift (on the left): This sensor orientation notification will appear if considerable drift has been detected in the sensor's orientation. This error can be resolved by adjusting the sensor back to the correct orientation.
