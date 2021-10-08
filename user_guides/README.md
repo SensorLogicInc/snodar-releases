@@ -54,12 +54,8 @@ Play Store App                                                                  
 ### Permissions
 To run the fully featured App, Bluetooth and Location services (i.e. GPS) *MUST* be enabled.
 
-### Scan
-To scan for available sensors either press the **Scan** button on the bottom of the home screen. Scanning can be stopped by tapping the **Stop Scanning** button.
-
-![](images/scan_page.png)
-
 ### Connect
+![](images/connect_screen.png)
 1. To connect to a sensor, tap the **+** sign in the lower right corner of the screen.
 
 2. From the **Add Sensor** screen, connect to the desired sensor by tapping on the **Connect** button by the sensor’s name.
@@ -67,7 +63,7 @@ To scan for available sensors either press the **Scan** button on the bottom of 
 3. When prompted, enter the default passkey `123456` and tap the pair button. 
 	- For more information on changing an already connected sensor’s passkey see Security -> Change Passkey.
 	
-4. Devices that have already been added will be listed on the home screen and can be connected to using the **Connect** button to the right of the device's name.
+4. Devices that have already been added will be listed on the home screen and can be connected to by tapping the **Bluetooth** button to the right of the device's name.
 
 ![](images/connect_button.png)
 
@@ -89,36 +85,6 @@ Upon SNOdar sensor field installation, it is imperative to run the **Sensor Setu
 
 ![](images/setup_menu.png)
 
-### Mounting: Orientation
-The Mounting Orientation page verifies that the sensor is mounted in the proper orientation - less than 10 meters above ground and with the sensor bottom facing towards the ground.
-
-Once the sensor has been mounted press the **verify** button in the bottom middle of the screen. If the sensor is properly oriented, the **verify** button will turn green and say **verified**.
-
-### Mounting: Snow Presence
-The Snow Presence Page records if snow is present when sensor is set up. If snow is present, the depth of the snow in meters must be entered.
-
-### Mounting: Sensor Calibration
-The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from near the sensor, press the **refresh**  icon, and stand at least 10 meters away from the sensor.
-
-![](images/setup_orientation.png)
-
-### Location
-The Location Page uses your mobile device's GPS to determine the sensor's location. To do so, press the **Auto Coordinates** button in the bottom middle of the screen.
-
-The location can be updated by tapping the **Auto Coordinates** button again.
-
-### Synchronize
-The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **refresh** icon. 
-
-When the time has been synchronized, the newly set time will be displayed.
-
-### Name Sensor
-The Name Sensor Page allows for the sensor to be given a unique name.
-
-The name can be reverted back to the original sensor name by pressing the **refresh** icon to the right of the text input field.
-
-![](images/setup_two.png)
-
 ### Sensor Mode
 The Sensor Mode Page allows for different sensor operation modes to be selected.
 
@@ -127,23 +93,71 @@ The Sensor Mode Page allows for different sensor operation modes to be selected.
 - The **Distance** sensor mode is used for basic distance measurements. This will be the default mode when NO Bluetooth setup can be done. The sensor will measure distance to the snow every 5 minutes and send data out the SDI-12.
 - The **Manual** sensor mode has no automated operation only user interactions. This mode is used exclusively for testing and in lab scenarios.
 
+### Mounting: Orientation
+The Mounting Orientation page verifies that the sensor is mounted in the proper orientation - less than 10 meters above ground and with the sensor bottom facing towards the ground.
+
+Once the sensor has been mounted press the **verify** button in the bottom middle of the screen. If the sensor is properly oriented, the **verify** button will turn green and say **verified**.
+
+### Mounting: Snow Presence
+The Snow Presence Page records if snow is present when sensor is set up. If snow is present, the depth of the snow in meters must be entered.
+
+![](images/setup_one.png)
+
+
+### Mounting: Distance Calibration
+The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from near the sensor, press the **refresh**  icon, and stand at least 10 meters away from the sensor.
+
+### Location
+
+The Location Page uses your mobile device's GPS to determine the sensor's location. To do so, press the **Auto Coordinates** button in the bottom middle of the screen.
+
+The location can be updated by tapping the **Auto Coordinates** button again.
+
+### Synchronize
+
+The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **refresh** icon. 
+
+When the time has been synchronized, the newly set time will be displayed.
+
+![](images/setup_two.png)
+
+### Name Sensor
+
+The Name Sensor Page allows for the sensor to be given a unique name.
+
+The name can be reverted back to the original sensor name by pressing the **refresh** icon to the right of the text input field.
+
+### Reset Time
+*Add info*
+
 ### Snow Class
+
 The Snow Class Page allows for the type of snow to be specified. Choose a snow class out of alpine, maritime, prairie, tundra, and taiga that best describes the snow in your location.
+
+![](images/setup_three.png)
+
+![](images/setup_four.png)
+
 
 ### Measurement Interval
 The Measurement Interval Page allows for the interval at which measurements are taken to be set.
 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
-### Logging
+### External Logging
 The logging mode for data acquisition can be set to a combination of internal logging, RS232, and SDI-12.
 
-### Complete Setup
-Lastly, the Complete Setup Page provides a summary of the settings. To confirm the settings and complete the sensor setup, press submit. To correct a setting, page back through the previous pages using the completion bar at the top of the screen.
+### Enhanced Temperature Control
+*Add info*
 
 ![](images/setup_four.png)
 
+### Complete Setup
+
+Lastly, the Complete Setup Page provides a summary of the settings. To confirm the settings and complete the sensor setup, press submit. To correct a setting, page back through the previous pages using the completion bar at the top of the screen.
+
 ### Erase Data Flash
+
 Before sensor setup is complete you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted *and any prior data of the sensor will be deleted*. By choosing no, the device storage will not be formatted and the sensor's prior data will be preserved. 
 
 ![](images/data_flash.png)
