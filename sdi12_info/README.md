@@ -66,10 +66,10 @@ a: sensor address, e.g. 0
 | PWR +12V        | 2              | 2             | WHITE       |
 | SDI-12          | 4              | 4             | RED         |
 
-- Connection diagram for the CR1000X]
+- Connection diagram for the CR1000X
 
 ![](cr1000x_hookup_pic.png)
 
-- Connection diagram for the CR6]
+- Connection diagram for the CR6
 
 ![](cr6_hookup_pic.png)
