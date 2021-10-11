@@ -31,7 +31,7 @@ Mount the sensor less than 9 meters from the ground and more than 9 cm from the 
 For best performance, rotationally mount the sensor so that it is normal to the ground, i.e. measuring perpendicular to the ground surface; however, it does have the ability to be mounted at angles or on hillsides, up to 30 degrees from normal.
 
 #### IMU Directionality
-- **Roll**: Rrotation about the axis running through the clamp mount (this is the rotation monitored in **Stormboard** mode, 20 degrees is ideal)
+- **Roll**: Rotation about the axis running through the clamp mount (this is the rotation monitored in **Stormboard** mode, 20 degrees is ideal)
 - **Pitch**: Rotation about the axis running through the connector
 - **Yaw**: Rotation about the axis running through the top dome peak
 
@@ -96,7 +96,7 @@ The Sensor Mode Page allows for different sensor operation modes to be selected.
 ### Mounting: Orientation
 The Mounting Orientation page verifies that the sensor is mounted in the proper orientation - less than 10 meters above ground and with the sensor bottom facing towards the ground.
 
-Once the sensor has been mounted press the **verify** button in the bottom middle of the screen. If the sensor is properly oriented, the **verify** button will turn green and say **verified**.
+Once the sensor has been mounted press the **calibrate** button in the bottom middle of the screen. If the sensor is properly oriented, the **calibrate** button will turn green.
 
 ### Mounting: Snow Presence
 The Snow Presence Page records if snow is present when sensor is set up. If snow is present, the depth of the snow in meters must be entered.
@@ -105,17 +105,15 @@ The Snow Presence Page records if snow is present when sensor is set up. If snow
 
 
 ### Mounting: Distance Calibration
-The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from near the sensor, press the **refresh**  icon, and stand at least 10 meters away from the sensor.
+The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from near the sensor, press the **calibrate**  button, and stand at least 10 meters away from the sensor.
 
 ### Location
 
-The Location Page uses your mobile device's GPS to determine the sensor's location. To do so, press the **Auto Coordinates** button in the bottom middle of the screen.
-
-The location can be updated by tapping the **Auto Coordinates** button again.
+The Location Page uses your mobile device's GPS to determine the sensor's location. To update the location tap the **refresh coords** button.
 
 ### Synchronize
 
-The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **refresh** icon. 
+The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **synchronize** button. 
 
 When the time has been synchronized, the newly set time will be displayed.
 
@@ -127,8 +125,8 @@ The Name Sensor Page allows for the sensor to be given a unique name.
 
 The name can be reverted back to the original sensor name by pressing the **refresh** icon to the right of the text input field.
 
-### Reset Time
-*Add info*
+### Snowfall
+The Snowfall page allows for a time to be set at which the snowfall calculations for the day and the season will start over. To set the seasonal reset date, tap the date icon under the **resets @** button and scroll through the year, month, and date. To set the daily reset time, scroll through the time options under the **resets @** button. 
 
 ### Snow Class
 
@@ -136,54 +134,58 @@ The Snow Class Page allows for the type of snow to be specified. Choose a snow c
 
 ![](images/setup_three.png)
 
-![](images/setup_four.png)
-
-
 ### Measurement Interval
+
 The Measurement Interval Page allows for the interval at which measurements are taken to be set.
 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
 ### External Logging
-The logging mode for data acquisition can be set to a combination of internal logging, RS232, and SDI-12.
+
+The logging mode for data acquisition can be set to a combination of RS-232 TX, RS-232 Format, and SDI-12 Units. In order to enable SDI-12 Units RS-232 TX must be enabled. 
 
 ### Enhanced Temperature Control
-*Add info*
+
+While the SNOdar has a standard temperature control, the Enhance Temperature Control page allows for the temperature control to be disabled or set to Line Powered control. For more info about each of these options, tap the more info button. 
 
 ![](images/setup_four.png)
 
 ### Complete Setup
 
-Lastly, the Complete Setup Page provides a summary of the settings. To confirm the settings and complete the sensor setup, press submit. To correct a setting, page back through the previous pages using the completion bar at the top of the screen.
+Lastly, the Complete Setup Page provides a summary of the settings. Any setup steps that were skipped or are incomplete will have a red **x** next to them. To go back to these steps, press the menu button in the right corner of the setup page and navigate to the setup steps menu where each of the setup steps can be accessed. 
+
+To confirm the settings and complete the sensor setup, press the **save settings** button.
+
+![](images/setup_menu_button.png)
 
 ### Erase Data Flash
 
-Before sensor setup is complete you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted *and any prior data of the sensor will be deleted*. By choosing no, the device storage will not be formatted and the sensor's prior data will be preserved. 
+Once you press the **save settings** button, Before sensor setup is complete you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted *and any prior data of the sensor will be deleted*. By choosing no, the device storage will not be formatted and any prior data will be preserved. 
 
-![](images/data_flash.png)
+![](images/setup_formatStorage.png)
 
 ## View
-To view a sensor and its associated data, press the **View**’ button on the desired sensor’s tab. Return to the home page using the back arrow in the top left corner, or navigate through each of the sensor’s pages for required functionality (listed below).
+To view a sensor and its associated data, press the **View** button on the desired sensor’s tab. Return to the home page using the back arrow in the top left corner, or navigate through each of the sensor’s pages for required functionality (listed below).
 
 ![](images/view_button.png)
 
 ![](images/view_toolbar.png)
 
 ### Summary 
-The Summary Page provides an overview of the sensor's data as well as displays any errors with the sensor. For more information on sensor error notifications see the Sensor Error Notifications section of the user guide.
+The Summary Page provides an overview of the sensor's data as well as displays any errors with the sensor. For more information on sensor error notifications see the ***Sensor Error Notifications*** section of the user guide.
 The Summary Page contains information on snow depth, sensor storage, measurement information, sensor power, internal sensor temperature including potential heater failure, and sensor orientation including potential sensor drift.  
 
 ![](images/view_summary.png)
 
 ### Logs
-The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** icon on the toolbar for the Logs page. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping first on the displayed date or time and then editing that date or time in the input field below.
+The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** button in the lower right hand corner of the page. Then press the **Download Log from Sensor** button. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping first on the displayed date or time and then editing that date or time in the input field below.
 
 ![](images/log_download.png)
 
 Once downloaded, the log can be deleted, viewed, or shared. Tapping the **View** button will take you to the Data Page. You can also view the log info by tapping on the **i SNOLOG** icon. 
 
 ### Data
-The Data Page displays an interactive depiction of the downloaded data. Tapping the **Dropdown menu** above the chart will display the different collections of data that can be displayed. The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
+The Data Page displays an interactive depiction of the downloaded data. To plot data, select a log and press the **view** button for that log. Once the log has been plotted, different collections of data can be displayed by tapping the **Dropdown menu** above the plot.  The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
 
 ![](images/view_data.png)
 
@@ -205,7 +207,7 @@ Sensor Card Kebab Menu Location         |  Available Firmware Update
 ### LED Legend
 
 - Upon Boot
-	- 4 secs @ 5 Hz Green: Health Diagnostis **Passing**
+	- 4 secs @ 5 Hz Green: Health Diagnostics **Passing**
 	- 4 secs @ 5 Hz Red: Health Diagnostics **Failure**
 - Measurement
 	- Solid Yellow for length of measurement
