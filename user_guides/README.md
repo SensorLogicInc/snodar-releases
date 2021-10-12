@@ -71,7 +71,6 @@ To run the fully featured App, Bluetooth and Location services (i.e. GPS) *MUST*
 The mobile device will now have to pair and bond to the SNOdar device. This is an encryption-based security feature to protect the device and its data from nefarious and/or unintentional actions. Therefore, it is highly important to _Change_ the default passkey and note, somewhere safe, where it can be recalled if forgotten.
 
 ### Change Passkey
-
 1. From the home screen, tap on the **Kebab Menu**  beside the name of the desired sensor.
 2. Select **Security** from the menu items.
 3. Tap the edit button and change the default passkey to a six digit, numeric passkey of your choice.
@@ -96,7 +95,7 @@ The Sensor Mode Page allows for different sensor operation modes to be selected.
 ### Mounting: Orientation
 The Mounting Orientation page verifies that the sensor is mounted in the proper orientation - less than 10 meters above ground and with the sensor bottom facing towards the ground.
 
-Once the sensor has been mounted press the **calibrate** button in the bottom middle of the screen. If the sensor is properly oriented, the **calibrate** button will turn green.
+Once the sensor has been mounted press the **Calibrate** button in the bottom middle of the screen. If the sensor is properly oriented, this **Calibrate** button will turn green.
 
 ### Mounting: Snow Presence
 The Snow Presence Page records if snow is present when sensor is set up. If snow is present, the depth of the snow in meters must be entered.
@@ -105,67 +104,58 @@ The Snow Presence Page records if snow is present when sensor is set up. If snow
 
 
 ### Mounting: Distance Calibration
-The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from near the sensor, press the **calibrate**  button, and stand at least 10 meters away from the sensor.
+The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from below the sensor, press the **Calibrate**  button, and stand at least 10 meters away from the sensor.
 
 ### Location
-
-The Location Page uses your mobile device's GPS to determine the sensor's location. To update the location tap the **refresh coords** button.
+The Location Page uses your mobile device's GPS to determine the sensor's location. To update the location tap the **Refresh Coords** button.
 
 ### Synchronize
-
-The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **synchronize** button. 
+The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **Synchronize** button. 
 
 When the time has been synchronized, the newly set time will be displayed.
 
 ![](images/setup_two.png)
 
 ### Name Sensor
-
 The Name Sensor Page allows for the sensor to be given a unique name.
 
-The name can be reverted back to the original sensor name by pressing the **refresh** icon to the right of the text input field.
+The name can be reverted back to the original sensor name by pressing the **Refresh** icon to the right of the text input field.
 
 ### Snowfall
-The Snowfall page allows for a time to be set at which the snowfall calculations for the day and the season will start over. To set the seasonal reset date, tap the date icon under the **resets @** button and scroll through the year, month, and date. To set the daily reset time, scroll through the time options under the **resets @** button. 
+The Snowfall page allows for a time to be set at which the snowfall calculations for the day and the season will start over. To set the seasonal reset date, tap the date icon under the **Resets @** button and scroll through the year, month, and date. To set the daily reset time, scroll through the time options under the **Resets @** button. 
 
 ### Snow Class
-
 The Snow Class Page allows for the type of snow to be specified. Choose a snow class out of alpine, maritime, prairie, tundra, and taiga that best describes the snow in your location.
 
 ![](images/setup_three.png)
 
 ### Measurement Interval
-
 The Measurement Interval Page allows for the interval at which measurements are taken to be set.
 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
 ### External Logging
-
-The logging mode for data acquisition can be set to a combination of RS-232 TX, RS-232 Format, and SDI-12 Units. In order to enable SDI-12 Units RS-232 TX must be enabled. 
+The logging mode for data acquisition can be set to a combination of RS-232 TX, RS-232 Format, and SDI-12 Units. RS-232 TX must be enabled in order to enable SDI-12 Units. 
 
 ### Enhanced Temperature Control
-
-While the SNOdar has a standard temperature control, the Enhance Temperature Control page allows for the temperature control to be disabled or set to Line Powered control. For more info about each of these options, tap the more info button. 
+While the SNOdar has a standard temperature control, the Enhance Temperature Control page allows for the temperature control to be disabled or set to Line Powered control. Detailed information about each of these options can be found by tapping the more info button. 
 
 ![](images/setup_four.png)
 
 ### Complete Setup
+Lastly, the Complete Setup Page provides a summary of the settings. Any setup steps that were skipped or are incomplete will have a red **x** next to them. To go back to these steps, press the menu button in the right corner of the setup page and choose the desired setup step from the menu.  
 
-Lastly, the Complete Setup Page provides a summary of the settings. Any setup steps that were skipped or are incomplete will have a red **x** next to them. To go back to these steps, press the menu button in the right corner of the setup page and navigate to the setup steps menu where each of the setup steps can be accessed. 
-
-To confirm the settings and complete the sensor setup, press the **save settings** button.
+To confirm the settings and complete the sensor setup, press the **Save Settings** button.
 
 ![](images/setup_menu_button.png)
 
 ### Erase Data Flash
-
-Once you press the **save settings** button, Before sensor setup is complete you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted *and any prior data of the sensor will be deleted*. By choosing no, the device storage will not be formatted and any prior data will be preserved. 
+Once you press the **Save Settings** button, you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted ***and any recorded data will be deleted***. By choosing no, the device storage will not be formatted and any recorded data will be preserved. 
 
 ![](images/setup_formatStorage.png)
 
 ## View
-To view a sensor and its associated data, press the **View** button on the desired sensor’s tab. Return to the home page using the back arrow in the top left corner, or navigate through each of the sensor’s pages for required functionality (listed below).
+To view a sensor and its associated data, press the **View** button on the desired sensor’s tab. You can return to the home page via the back arrow in the top left corner. 
 
 ![](images/view_button.png)
 
@@ -178,19 +168,19 @@ The Summary Page contains information on snow depth, sensor storage, measurement
 ![](images/view_summary.png)
 
 ### Logs
-The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** button in the lower right hand corner of the page. Then press the **Download Log from Sensor** button. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping first on the displayed date or time and then editing that date or time in the input field below.
+The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** button in the lower right hand corner of the page. Then press the **Download Log from Sensor** button. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping on the first displayed date or time and setting a unique time then doing the same for the second displayed date or time.
 
 ![](images/log_download.png)
 
-Once downloaded, the log can be deleted, viewed, or shared. Tapping the **View** button will take you to the Data Page. You can also view the log info by tapping on the **i SNOLOG** icon. 
+Once downloaded, the log can be deleted, viewed, or shared. Tapping the **View** button will take you to the Data Page. You can also view more information about the log by tapping on the **i SNOLOG** icon. 
 
 ### Data
-The Data Page displays an interactive depiction of the downloaded data. To plot data, select a log and press the **view** button for that log. Once the log has been plotted, different collections of data can be displayed by tapping the **Dropdown menu** above the plot.  The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
+The Data Page displays an interactive depiction of the downloaded data. To plot data, select a log and press the **View** button for that log. Once the log has been plotted, different collections of data can be displayed by tapping the **Dropdown menu** above the plot.  The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
 
 ![](images/view_data.png)
 
 ### Config
-The Config Page allows for quick edits of some of the sensor's settings. These settings can only be edited after the **unlock** button in the bottom corner of the screen is tapped. The **lock** button should be tapped after edits are made. 
+The Config Page allows for quick edits of some of the sensor's settings. These settings can only be edited after the **Unlock** button in the bottom corner of the screen is tapped. The **Lock** button should be tapped after edits are made. 
 
 ![](images/view_config.png)
 
