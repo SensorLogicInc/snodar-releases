@@ -135,7 +135,9 @@ The Measurement Interval Page allows for the interval at which measurements are 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
 ### External Logging
-The logging mode for data acquisition can be set to a combination of RS-232 TX, RS-232 Format, and SDI-12 Units. RS-232 TX must be enabled in order to enable SDI-12 Units. 
+The external logging configuration for off-board data acquisition devices controls RS-232 and SDI-12 commications and settings. RS-232 can be disabled, set to transmit measurement data as an ASCII formatted string to any device listening on the RS-232 port, or can be set to communicate with an Irdium Short Burst Data (SBD) Satcom. The SDI-12 port, commonly used to communicate with data loggers, is always on and listening. It can be configured to output measurement data in two different formats:
+- Metric: distances in Meters and Temperatures in degrees Celsius.
+- SNOTEL: distances in Inches and Temperatures in degrees Celsius.
 
 ### Enhanced Temperature Control
 While the SNOdar has a standard temperature control, the Enhance Temperature Control page allows for the temperature control to be disabled or set to Line Powered control. Detailed information about each of these options can be found by tapping the more info button. 
