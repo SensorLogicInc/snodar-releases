@@ -6,7 +6,7 @@
 
 ![](images/snodar_power.png)
 
-2. Supply 6-24 VDC (3.5 Watt supply minimum) to the cable leads according to the pinout below (either GND can be used):
+2. Supply 6-24 VDC (3.5W supply minimum is needed to test the heater) to the cable leads according to the pinout below (either GND can be used):
 
 | SNOdar Pin Name | SNOdar Pin NO. | Cable Pin NO. |  Wire Color |
 | --------------- | -------------- | ------------- | ----------- |
@@ -17,13 +17,13 @@
 | TX: RS-232      | 5              | 5             | BLUE        |
 | RX: RS-232      | 6              | 6             | VIOLET      |
 
-3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertisement.
+3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertising. If the LEDs flash RED instead, click on the `Sensor Health` on the _Home_ card to note exactly what failed. THis will aid in support diagnostics. 
 4. If in the field go to [Installation and Mounting](#installation-and-mounting) directly below; otherwise, set sensor aside and set up the [SNOdar Mobile App](#download-the-app) on your mobile device.
 
 ## Installation and Mounting
 
 ### Mounting Height
-Mount the sensor less than 9 meters from the ground and more than 9 cm from the ground or Stormboard fixuture.
+Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixuture.
 
 ![](images/snodar_mounting_diagram.png)
 
@@ -40,7 +40,8 @@ Roll                         |  Pitch                         | Yaw
 ![](images/snodar_roll.jpg)  |  ![](images/snodar_pitch.jpg)  | ![](images/snodar_yaw.jpg)
 
 ### Ground Preparation
-Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall grass below and around the sensor. Ideally, a level dirt pad is prepared below the sensor for the most accurate seasonal measurements.
+Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall grass below and around the sensor. Ideally, a level dirt pad is prepared below the sensor for the most accurate seasonal measurements. 
+- Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
 
 ## Download the App
 Depending on your mobile device of choice:
