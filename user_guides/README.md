@@ -23,7 +23,7 @@
 ## Installation and Mounting
 
 ### Mounting Height
-Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixuture.
+Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixture.
 
 ![](images/snodar_mounting_diagram.png)
 
