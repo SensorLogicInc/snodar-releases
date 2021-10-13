@@ -44,7 +44,7 @@ Roll                         |  Pitch                         | Yaw
 ![](images/snodar_roll.jpg)  |  ![](images/snodar_pitch.jpg)  | ![](images/snodar_yaw.jpg)
 
 ### Ground Preparation
-Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall grass below and around the sensor. Ideally, a level dirt pad is prepared below the sensor for the most accurate seasonal measurements. 
+Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall, dense grass below and around the sensor within the cone of influence (based on the mounting height). Ideally, a level dirt/rock pad is prepared below the sensor for the most accurate seasonal measurements. 
 - Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
 
 ## Download the App
