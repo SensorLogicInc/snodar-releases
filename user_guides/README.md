@@ -27,6 +27,10 @@ Mount the sensor less than **9 meters** and more than **9 cm** from the ground o
 
 ![](images/snodar_mounting_diagram.png)
 
+As a reference, this is the approximate cone projection field-of-view (FOV) of the SNOdar, when impinging upon the ground or snow surface.
+
+![](images/snodar_fov.png)
+
 ### Obliqueness
 For best performance, rotationally mount the sensor so that it is normal to the ground, i.e. measuring perpendicular to the ground surface; however, it does have the ability to be mounted at angles or on hillsides, up to 30 degrees from normal.
 
