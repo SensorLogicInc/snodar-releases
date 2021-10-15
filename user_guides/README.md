@@ -115,7 +115,7 @@ The Sensor Calibration Page allows the sensor to calibrate. To do so clear any o
 The Location Page uses your mobile device's GPS to determine the sensor's location. To update the location tap the **Refresh Coords** button.
 
 ### Synchronize
-The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **Synchronize** button. 
+The Synchronize Page synchronizes the sensor's time with the time and time zone of your mobile device. To do so, press the **Synchronize** button. 
 
 When the time has been synchronized, the newly set time will be displayed.
 
@@ -127,15 +127,20 @@ The Name Sensor Page allows for the sensor to be given a unique name.
 The name can be reverted back to the original sensor name by pressing the **Refresh** icon to the right of the text input field.
 
 ### Snowfall
-The Snowfall page allows for a time to be set at which the snowfall calculations for the day and the season will start over. To set the seasonal reset date, tap the date icon under the **Resets @** button and scroll through the year, month, and date. To set the daily reset time, scroll through the time options under the **Resets @** button. 
+The Snowfall page allows for a time to be set at which the snowfall calculations for the day and the season will start over. To set the seasonal reset date, tap the date icon under the **Resets @** button and scroll through the year, month, and date. To set the daily reset time, scroll through the time options under the **Resets @** button. Both values are set according to the local time of the mobile device. 
 
 ### Snow Class
-The Snow Class Page allows for the type of snow to be specified. Choose a snow class out of alpine, maritime, prairie, tundra, and taiga that best describes the snow in your location.
+The Snow Class Page allows for the type of snow to be specified. Choose a snow class that best describes the snow in your region.
+- Alpine
+- Maritime
+- Prairie
+- Tundra
+- Taiga
 
 ![](images/setup_three.png)
 
 ### Measurement Interval
-The Measurement Interval Page allows for the interval at which measurements are taken to be set.
+The Measurement Interval Page allows for the interval at which measurements are taken to be set. The minimum allowable time interval is 1 minute.
 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
