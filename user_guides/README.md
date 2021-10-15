@@ -6,7 +6,7 @@
 
 ![](images/snodar_power.png)
 
-2. Supply 6-24 VDC (3.5 Watt supply minimum) to the cable leads according to the pinout below (either GND can be used):
+2. Supply 6-24 VDC (3.5W supply minimum is needed to test the heater) to the cable leads according to the pinout below (either GND can be used):
 
 | SNOdar Pin Name | SNOdar Pin NO. | Cable Pin NO. |  Wire Color |
 | --------------- | -------------- | ------------- | ----------- |
@@ -17,15 +17,19 @@
 | TX: RS-232      | 5              | 5             | BLUE        |
 | RX: RS-232      | 6              | 6             | VIOLET      |
 
-3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertisement.
+3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertising. If the LEDs flash RED instead, click on the `Sensor Health` on the _Home_ card to note exactly what failed. THis will aid in support diagnostics. 
 4. If in the field go to [Installation and Mounting](#installation-and-mounting) directly below; otherwise, set sensor aside and set up the [SNOdar Mobile App](#download-the-app) on your mobile device.
 
 ## Installation and Mounting
 
 ### Mounting Height
-Mount the sensor less than 9 meters from the ground and more than 9 cm from the ground or Stormboard fixuture.
+Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixture.
 
 ![](images/snodar_mounting_diagram.png)
+
+As a reference, this is the approximate cone projection field-of-view (FOV) of the SNOdar, when impinging upon the ground or snow surface.
+
+![](images/snodar_fov.png)
 
 ### Obliqueness
 For best performance, rotationally mount the sensor so that it is normal to the ground, i.e. measuring perpendicular to the ground surface; however, it does have the ability to be mounted at angles or on hillsides, up to 30 degrees from normal.
@@ -40,7 +44,8 @@ Roll                         |  Pitch                         | Yaw
 ![](images/snodar_roll.jpg)  |  ![](images/snodar_pitch.jpg)  | ![](images/snodar_yaw.jpg)
 
 ### Ground Preparation
-Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall grass below and around the sensor. Ideally, a level dirt pad is prepared below the sensor for the most accurate seasonal measurements.
+Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps below the sensor. Also, remove and clear large foliage and tall, dense grass below and around the sensor within the cone of influence (based on the mounting height). Ideally, a level dirt/rock pad is prepared below the sensor for the most accurate seasonal measurements. 
+- Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
 
 ## Download the App
 Depending on your mobile device of choice:
@@ -135,7 +140,9 @@ The Measurement Interval Page allows for the interval at which measurements are 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
 ### External Logging
-The logging mode for data acquisition can be set to a combination of RS-232 TX, RS-232 Format, and SDI-12 Units. RS-232 TX must be enabled in order to enable SDI-12 Units. 
+The external logging configuration for off-board data acquisition devices controls RS-232 and SDI-12 commications and settings. RS-232 can be disabled, set to transmit measurement data as an ASCII formatted string to any device listening on the RS-232 port, or can be set to communicate with an Irdium Short Burst Data (SBD) Satcom. The SDI-12 port, commonly used to communicate with data loggers, is always on and listening. It can be configured to output measurement data in two different formats:
+- Metric: distances in Meters and Temperatures in degrees Celsius.
+- SNOTEL: distances in Inches and Temperatures in degrees Celsius.
 
 ### Enhanced Temperature Control
 While the SNOdar has a standard temperature control, the Enhance Temperature Control page allows for the temperature control to be disabled or set to Line Powered control. Detailed information about each of these options can be found by tapping the more info button. 
