@@ -6,7 +6,7 @@
 
 ![](images/snodar_power.png)
 
-2. Supply 6-24 VDC (3.5 Watt supply minimum) to the cable leads according to the pinout below (either GND can be used):
+2. Supply 6-24 VDC (3.5W supply minimum is needed to test the heater) to the cable leads according to the pinout below (either GND can be used):
 
 | SNOdar Pin Name | SNOdar Pin NO. | Cable Pin NO. |  Wire Color |
 | --------------- | -------------- | ------------- | ----------- |
@@ -17,21 +17,25 @@
 | TX: RS-232      | 5              | 5             | BLUE        |
 | RX: RS-232      | 6              | 6             | VIOLET      |
 
-3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertisement.
+3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertising. If the LEDs flash RED instead, click on the `Sensor Health` on the _Home_ card to note exactly what failed. THis will aid in support diagnostics. 
 4. If in the field go to [Installation and Mounting](#installation-and-mounting) directly below; otherwise, set sensor aside and set up the [SNOdar Mobile App](#download-the-app) on your mobile device.
 
 ## Installation and Mounting
 
 ### Mounting Height
-Mount the sensor less than 9 meters from the ground and more than 9 cm from the ground or Stormboard fixuture.
+Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixture.
 
 ![](images/snodar_mounting_diagram.png)
+
+As a reference, this is the approximate cone projection field-of-view (FOV) of the SNOdar, when impinging upon the ground or snow surface.
+
+![](images/snodar_fov.png)
 
 ### Obliqueness
 For best performance, rotationally mount the sensor so that it is normal to the ground, i.e. measuring perpendicular to the ground surface; however, it does have the ability to be mounted at angles or on hillsides, up to 30 degrees from normal.
 
 #### IMU Directionality
-- **Roll**: Rrotation about the axis running through the clamp mount (this is the rotation monitored in **Stormboard** mode, 20 degrees is ideal)
+- **Roll**: Rotation about the axis running through the clamp mount (this is the rotation monitored in **Stormboard** mode, 20 degrees is ideal)
 - **Pitch**: Rotation about the axis running through the connector
 - **Yaw**: Rotation about the axis running through the top dome peak
 
@@ -40,7 +44,8 @@ Roll                         |  Pitch                         | Yaw
 ![](images/snodar_roll.jpg)  |  ![](images/snodar_pitch.jpg)  | ![](images/snodar_yaw.jpg)
 
 ### Ground Preparation
-Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps, below the sensor. Also, remove and clear large foliage and tall grass below and around the sensor. Ideally, a level dirt pad is prepared below the sensor for the most accurate seasonal measurements.
+Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps below the sensor. Also, remove and clear large foliage and tall, dense grass below and around the sensor within the cone of influence (based on the mounting height). Ideally, a level dirt/rock pad is prepared below the sensor for the most accurate seasonal measurements. 
+- Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
 
 ## Download the App
 Depending on your mobile device of choice:
@@ -54,12 +59,8 @@ Play Store App                                                                  
 ### Permissions
 To run the fully featured App, Bluetooth and Location services (i.e. GPS) *MUST* be enabled.
 
-### Scan
-To scan for available sensors either press the **Scan** button on the bottom of the home screen. Scanning can be stopped by tapping the **Stop Scanning** button.
-
-![](images/scan_page.png)
-
 ### Connect
+![](images/connect_screen.png)
 1. To connect to a sensor, tap the **+** sign in the lower right corner of the screen.
 
 2. From the **Add Sensor** screen, connect to the desired sensor by tapping on the **Connect** button by the sensor’s name.
@@ -67,7 +68,7 @@ To scan for available sensors either press the **Scan** button on the bottom of 
 3. When prompted, enter the default passkey `123456` and tap the pair button. 
 	- For more information on changing an already connected sensor’s passkey see Security -> Change Passkey.
 	
-4. Devices that have already been added will be listed on the home screen and can be connected to using the **Connect** button to the right of the device's name.
+4. Devices that have already been added will be listed on the home screen and can be connected to by tapping the **Bluetooth** button to the right of the device's name.
 
 ![](images/connect_button.png)
 
@@ -75,7 +76,6 @@ To scan for available sensors either press the **Scan** button on the bottom of 
 The mobile device will now have to pair and bond to the SNOdar device. This is an encryption-based security feature to protect the device and its data from nefarious and/or unintentional actions. Therefore, it is highly important to _Change_ the default passkey and note, somewhere safe, where it can be recalled if forgotten.
 
 ### Change Passkey
-
 1. From the home screen, tap on the **Kebab Menu**  beside the name of the desired sensor.
 2. Select **Security** from the menu items.
 3. Tap the edit button and change the default passkey to a six digit, numeric passkey of your choice.
@@ -89,36 +89,6 @@ Upon SNOdar sensor field installation, it is imperative to run the **Sensor Setu
 
 ![](images/setup_menu.png)
 
-### Mounting: Orientation
-The Mounting Orientation page verifies that the sensor is mounted in the proper orientation - less than 10 meters above ground and with the sensor bottom facing towards the ground.
-
-Once the sensor has been mounted press the **verify** button in the bottom middle of the screen. If the sensor is properly oriented, the **verify** button will turn green and say **verified**.
-
-### Mounting: Snow Presence
-The Snow Presence Page records if snow is present when sensor is set up. If snow is present, the depth of the snow in meters must be entered.
-
-### Mounting: Sensor Calibration
-The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from near the sensor, press the **refresh**  icon, and stand at least 10 meters away from the sensor.
-
-![](images/setup_orientation.png)
-
-### Location
-The Location Page uses your mobile device's GPS to determine the sensor's location. To do so, press the **Auto Coordinates** button in the bottom middle of the screen.
-
-The location can be updated by tapping the **Auto Coordinates** button again.
-
-### Synchronize
-The Synchronize Page synchronizes the sensor's time with the time of your mobile device. To do so, press the **refresh** icon. 
-
-When the time has been synchronized, the newly set time will be displayed.
-
-### Name Sensor
-The Name Sensor Page allows for the sensor to be given a unique name.
-
-The name can be reverted back to the original sensor name by pressing the **refresh** icon to the right of the text input field.
-
-![](images/setup_two.png)
-
 ### Sensor Mode
 The Sensor Mode Page allows for different sensor operation modes to be selected.
 
@@ -127,54 +97,102 @@ The Sensor Mode Page allows for different sensor operation modes to be selected.
 - The **Distance** sensor mode is used for basic distance measurements. This will be the default mode when NO Bluetooth setup can be done. The sensor will measure distance to the snow every 5 minutes and send data out the SDI-12.
 - The **Manual** sensor mode has no automated operation only user interactions. This mode is used exclusively for testing and in lab scenarios.
 
+### Mounting: Orientation
+The Mounting Orientation page verifies that the sensor is mounted in the proper orientation - less than 10 meters above ground and with the sensor bottom facing towards the ground.
+
+Once the sensor has been mounted press the **Calibrate** button in the bottom middle of the screen. If the sensor is properly oriented, this **Calibrate** button will turn green.
+
+### Mounting: Snow Presence
+The Snow Presence Page records if snow is present when sensor is set up. If snow is present, the depth of the snow in meters must be entered.
+
+![](images/setup_one.png)
+
+
+### Mounting: Distance Calibration
+The Sensor Calibration Page allows the sensor to calibrate. To do so clear any obstruction from below the sensor, press the **Calibrate**  button, and stand at least 10 meters away from the sensor.
+
+### Location
+The Location Page uses your mobile device's GPS to determine the sensor's location. To update the location tap the **Refresh Coords** button.
+
+### Synchronize
+The Synchronize Page synchronizes the sensor's time with the time and time zone of your mobile device. To do so, press the **Synchronize** button. 
+
+When the time has been synchronized, the newly set time will be displayed.
+
+![](images/setup_two.png)
+
+### Name Sensor
+The Name Sensor Page allows for the sensor to be given a unique name.
+
+The name can be reverted back to the original sensor name by pressing the **Refresh** icon to the right of the text input field.
+
+### Snowfall
+The Snowfall page allows for a time to be set at which the snowfall calculations for the day and the season will start over. To set the seasonal reset date, tap the date icon under the **Resets @** button and scroll through the year, month, and date. To set the daily reset time, scroll through the time options under the **Resets @** button. Both values are set according to the local time of the mobile device. 
+
 ### Snow Class
-The Snow Class Page allows for the type of snow to be specified. Choose a snow class out of alpine, maritime, prairie, tundra, and taiga that best describes the snow in your location.
+The Snow Class Page allows for the type of snow to be specified. Choose a snow class that best describes the snow in your region.
+- Alpine
+- Maritime
+- Prairie
+- Tundra
+- Taiga
+
+![](images/setup_three.png)
 
 ### Measurement Interval
-The Measurement Interval Page allows for the interval at which measurements are taken to be set.
+The Measurement Interval Page allows for the interval at which measurements are taken to be set. The minimum allowable time interval is 1 minute.
 
 To set the interval, tap anywhere on the current hours and minutes listing. Then tap the time button that appears. To increase the time, drag the hours (left) or minutes (right) up. To decrease the time, drag the hours (left) or minutes (right) down. Tap anywhere outside of the time input to exit.
 
-### Logging
-The logging mode for data acquisition can be set to a combination of internal logging, RS232, and SDI-12.
+### External Logging
+The external logging configuration for off-board data acquisition devices controls RS-232 and SDI-12 commications and settings. RS-232 can be disabled, set to transmit measurement data as an ASCII formatted string to any device listening on the RS-232 port, or can be set to communicate with an Irdium Short Burst Data (SBD) Satcom. The SDI-12 port, commonly used to communicate with data loggers, is always on and listening. It can be configured to output measurement data in two different formats:
+- Metric: distances in Meters and Temperatures in degrees Celsius.
+- SNOTEL: distances in Inches and Temperatures in degrees Celsius.
 
-### Complete Setup
-Lastly, the Complete Setup Page provides a summary of the settings. To confirm the settings and complete the sensor setup, press submit. To correct a setting, page back through the previous pages using the completion bar at the top of the screen.
+### Enhanced Temperature Control
+While the SNOdar has a standard temperature control, the Enhance Temperature Control page allows for the temperature control to be disabled or set to Line Powered control. Detailed information about each of these options can be found by tapping the more info button. 
 
 ![](images/setup_four.png)
 
-### Erase Data Flash
-Before sensor setup is complete you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted *and any prior data of the sensor will be deleted*. By choosing no, the device storage will not be formatted and the sensor's prior data will be preserved. 
+### Complete Setup
+Lastly, the Complete Setup Page provides a summary of the settings. Any setup steps that were skipped or are incomplete will have a red **x** next to them. To go back to these steps, press the menu button in the right corner of the setup page and choose the desired setup step from the menu.  
 
-![](images/data_flash.png)
+To confirm the settings and complete the sensor setup, press the **Save Settings** button.
+
+![](images/setup_menu_button.png)
+
+### Erase Data Flash
+Once you press the **Save Settings** button, you will be asked if you would like to format the device storage. By choosing yes the device storage will be formatted ***and any recorded data will be deleted***. By choosing no, the device storage will not be formatted and any recorded data will be preserved. 
+
+![](images/setup_formatStorage.png)
 
 ## View
-To view a sensor and its associated data, press the **View**’ button on the desired sensor’s tab. Return to the home page using the back arrow in the top left corner, or navigate through each of the sensor’s pages for required functionality (listed below).
+To view a sensor and its associated data, press the **View** button on the desired sensor’s tab. You can return to the home page via the back arrow in the top left corner. 
 
 ![](images/view_button.png)
 
 ![](images/view_toolbar.png)
 
 ### Summary 
-The Summary Page provides an overview of the sensor's data as well as displays any errors with the sensor. For more information on sensor error notifications see the Sensor Error Notifications section of the user guide.
+The Summary Page provides an overview of the sensor's data as well as displays any errors with the sensor. For more information on sensor error notifications see the ***Sensor Error Notifications*** section of the user guide.
 The Summary Page contains information on snow depth, sensor storage, measurement information, sensor power, internal sensor temperature including potential heater failure, and sensor orientation including potential sensor drift.  
 
 ![](images/view_summary.png)
 
 ### Logs
-The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** icon on the toolbar for the Logs page. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping first on the displayed date or time and then editing that date or time in the input field below.
+The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** button in the lower right hand corner of the page. Then press the **Download Log from Sensor** button. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping on the first displayed date or time and setting a unique time then doing the same for the second displayed date or time.
 
 ![](images/log_download.png)
 
-Once downloaded, the log can be deleted, viewed, or shared. Tapping the **View** button will take you to the Data Page. You can also view the log info by tapping on the **i SNOLOG** icon. 
+Once downloaded, the log can be deleted, viewed, or shared. Tapping the **View** button will take you to the Data Page. You can also view more information about the log by tapping on the **i SNOLOG** icon. 
 
 ### Data
-The Data Page displays an interactive depiction of the downloaded data. Tapping the **Dropdown menu** above the chart will display the different collections of data that can be displayed. The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
+The Data Page displays an interactive depiction of the downloaded data. To plot data, select a log and press the **View** button for that log. Once the log has been plotted, different collections of data can be displayed by tapping the **Dropdown menu** above the plot.  The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
 
 ![](images/view_data.png)
 
 ### Config
-The Config Page allows for quick edits of some of the sensor's settings. These settings can only be edited after the **unlock** button in the bottom corner of the screen is tapped. The **lock** button should be tapped after edits are made. 
+The Config Page allows for quick edits of some of the sensor's settings. These settings can only be edited after the **Unlock** button in the bottom corner of the screen is tapped. The **Lock** button should be tapped after edits are made. 
 
 ![](images/view_config.png)
 
@@ -191,7 +209,7 @@ Sensor Card Kebab Menu Location         |  Available Firmware Update
 ### LED Legend
 
 - Upon Boot
-	- 4 secs @ 5 Hz Green: Health Diagnostis **Passing**
+	- 4 secs @ 5 Hz Green: Health Diagnostics **Passing**
 	- 4 secs @ 5 Hz Red: Health Diagnostics **Failure**
 - Measurement
 	- Solid Yellow for length of measurement
