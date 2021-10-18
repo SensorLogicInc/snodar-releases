@@ -25,7 +25,7 @@ The 9 ordered values supplied over SDI-12 by the SNOdar in order are as follows:
 6. Seasonal Snow Depth
 7. Seasonal Snowfall
 8. Daily New Snowfall
-9. Day-of-Year SWE (*currently NOT available, returns as -1)
+9. Day-of-Year SWE
 ```
 ## Commands
 
@@ -33,19 +33,24 @@ SNOdar is sensitive to two standard SDI-12 Commands issued to SDI-12 address 0. 
 ```
 0M!
 ```
-followed by
+followed by Send Data Commands.
 ```
-0D0!
+0D<n>!
 ```
-The above mentioned 9 pieces of ASCII data will be returned on the SDI-12 line. 
+Where:
+```
+n: Increasing integer value starting with 0. Send Data Command is issued until all 9 pieces of ASCII data are received. 
+```
+
+The above mentioned 9 pieces of ASCII data will be returned on the SDI-12 line. The data will come back in multiple responses to incrementing Send Data Commands. The values are broken up into 35 max character responses, where individuals records are not split between responses.
 
 If the sensor is set up in `Manual` mode, the SDI-12 data logger actually initiates a measurement using the following command:
 ```
 0M!
 ```
-This will return a time delay, in seconds, that the logger needs to wait to then request the data using:
+This will return a time delay, in seconds, that the logger needs to wait to then request the data using Send Data Commands:
 ```
-0D0!
+0D<n>!
 ```
 
 To query if the sensor is active and responsive, use the following command and format:
