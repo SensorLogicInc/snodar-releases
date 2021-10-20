@@ -180,11 +180,13 @@ The Summary Page contains information on snow depth, sensor storage, measurement
 ![](images/view_summary.png)
 
 ### Logs
-The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** button in the lower right hand corner of the page. Then press the **Download Log from Sensor** button. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping on the first displayed date or time and setting a unique time then doing the same for the second displayed date or time.
+The Logs Page displays data that has been downloaded for the sensor. To download data, press the **Download** button in the lower right hand corner of the page. Then press the **Download Log from Sensor** button. You will be prompted to choose data from either the last day, the last week, or the last month. A custom range can also be selected by tapping on the first displayed date or time and setting a unique time then doing the same for the second displayed date or time. Once downloaded, the logs page will display all logs that have been downloaded to your mobile device.  
 
 ![](images/log_download.png)
 
-Once downloaded, the log can be deleted, viewed, or shared. Tapping the **View** button will take you to the Data Page. You can also view more information about the log by tapping on the **i SNOLOG** icon. 
+More information about each log can be found under the **SNOLOG Information** button. To view a graph of the log, tap the **View** button. Tapping the **Share** button will bring up options for sharing the log or uploading to your cloud storage of choice. 
+
+![](images/view_share_button.png)
 
 ### Data
 The Data Page displays an interactive depiction of the downloaded data. To plot data, select a log and press the **View** button for that log. Once the log has been plotted, different collections of data can be displayed by tapping the **Dropdown menu** above the plot.  The chart settings can also be altered by tapping the **Settings** icon beside the dropdown menu. 
