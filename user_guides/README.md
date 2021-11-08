@@ -1,4 +1,4 @@
-# SNOdar Quick Start Guide [PDF](snodar_quick_start_guide.pdf)
+# SNOdar Quick Start Guide => [PDF Download](snodar_quick_start_guide.pdf)
 
 ## Power and Boot Sensor
 
