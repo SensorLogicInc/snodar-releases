@@ -22,6 +22,15 @@ Play Store App                                                                  
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 [![](images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
+## Quick Links
+
+- [User Guides](user_guides)
+- [SDI-12 Info](sdi12_info)
+- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
+- [Field Data](field_data_WY2021)
+- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
+- [Privacy Policy](privacy-policy)
+
 ## Applications
 
 - SNOTEL Snow Depth Monitoring
@@ -71,15 +80,6 @@ Play Store App                                                                  
 | Weight                | Without and with mounting clamp, respectively                                  | 265      | 375      | grams         |
 | Size                  | 6.3 x 6.3 x 9.5 (W x L x H)                                                    |          |          | cm            |
 | Obliqueness           | From vertical, angle slant relative to measuring surface                       | -30      | 30       | degrees       |
-
-## Quick Links
-
-- [User Guides](user_guides)
-- [SDI-12 Info](sdi12_info)
-- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
-- [Field Data](field_data_WY2021)
-- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
-- [Privacy Policy](privacy-policy)
 
 ## Folder Structure
 
