@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+title: [SNOdar Snow Measurement by SensorLogic, Inc]
+description: [A new high-accuracy snow depth sensor + Data Logger, all accessible and configurable via BLE]
+show_downloads: [true]
