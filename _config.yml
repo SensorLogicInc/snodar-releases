@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
-title: [SNOdar Snow Measurement]
-description: ["A new high-accuracy, high-tech snow depth sensor + data logger, configurable via BLE"]
-show_downloads: [true]
+title: SNOdar Snow Measurement
+description: "A new high-accuracy, high-tech snow depth sensor + data logger, configurable via BLE"
+show_downloads: true
