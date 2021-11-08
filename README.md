@@ -73,6 +73,7 @@ Play Store App                                                                  
 - [User Guides](user_guides)
 - [SDI-12 Info](sdi12_info)
 - [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
+- [Field Data](field_data_WY2021)
 - [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
 - [Privacy Policy](privacy-policy)
 
