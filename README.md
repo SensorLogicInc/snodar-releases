@@ -23,6 +23,7 @@ Play Store App                                                                  
 [![](images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
 ## Applications
+
 - SNOTEL Snow Depth Monitoring
 - Stormboard Snowfall Measurement
 - Avalanche Monitoring and Forecasting
@@ -32,6 +33,7 @@ Play Store App                                                                  
 - General Snow Management
 
 ## Features
+
 - Real-time, accurate snow depth information during storms and heavy snowfall (NO postprocessing necessary)
 - Bluetooth Low Energy (BLE) enabled configuration, installation, and live display
 - Seasonal internal data logger
@@ -45,6 +47,7 @@ Play Store App                                                                  
 - Low power deployment, &le; 500 mW average consumption
 
 ## Specifications
+
 | Parameter             | Sub-Parameter Description                                                      | Min      | Max      | Units         |
 | --------------------- | ------------------------------------------------------------------------------ | -------- | -------- | ------------- |
 | Input Voltage         | Input voltage range (VDC)                                                      | 6        | 24       | volts         |
@@ -70,6 +73,7 @@ Play Store App                                                                  
 | Obliqueness           | From vertical, angle slant relative to measuring surface                       | -30      | 30       | degrees       |
 
 ## Quick Links
+
 - [User Guides](user_guides)
 - [SDI-12 Info](sdi12_info)
 - [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
@@ -78,6 +82,7 @@ Play Store App                                                                  
 - [Privacy Policy](privacy-policy)
 
 ## Folder Structure
+
 ```
 ├── data_sheet
 │   ├── SNOdar_Data_Sheet.pdf           # Main PDF data sheet
