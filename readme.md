@@ -1,8 +1,7 @@
 # SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, MT
 
-<p float="left">
-  <img src="images/sli_logo.png" style="width:60%" />
-  <img src="images/splashscreen.png" style="width:30%" align="right" />
+<p align="center">
+  <img src="assets/images/splashscreen.png" style="width:40%" />
 </p>
 
 ## Product Overview: Available for Purchase [Here](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-snow-depth-sensor)
@@ -20,7 +19,7 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 
 Play Store App                                                                                  |  iOS App Store
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
-[![](images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
+[![](assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
 ## Quick Links
 
@@ -91,7 +90,6 @@ Play Store App                                                                  
 │   ├── BannerSummitSNOdarWY2021.png    # Data PNG
 │   ├── BogusBasinSNOdarWY2021.png      # Data PNG
 │   ├── BridgerBowlSNOdarWY2021.png     # Data PNG
-├── images                              # Contains the images used in the top level markdown file
 ├── privacy-policy
 │   ├── README.md                       # Privacy policy markdown file
 ├── sdi12_info
