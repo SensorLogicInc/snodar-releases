@@ -39,8 +39,6 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
   <img src="assets/images/apple-app-store-badge.png" width="300" /> 
 </p>
 
-&nbsp;
-
 ## Applications
 
 - SNOTEL Snow Depth Monitoring
