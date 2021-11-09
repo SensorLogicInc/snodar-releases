@@ -1,6 +1,6 @@
 # SDI-12 Information
 
-[Back](./)
+[Back](../)
 
 ## Data Logger
 
