@@ -33,16 +33,10 @@ SNOdar measures seasonal snow depth and snowfall. Simultaneously, it can relay d
 The sensor is small and lightweight, yet durable enough to monitor snow depth all season long at -40 degC and colder. The unit is typically powered from +12 VDC battery source and consumes less than 0.5 Watt on average. A small battery and solar panel (e.g. 50Ah + 10W) is all that is needed for seasonal deployment, depending on lattitude. The unit can be set up to operate as a distance sensor, stormboard snowfall sensor, or a seasonal snow depth sensor. A powerful mobile App allows the user to quickly configure and deploy the unit as well as monitor real-time data when within Bluetooth range. As a stormboard sensor, view or download the latest storm snow total, wipe the board, and re-calibrate for the next snowfall event. Furthermore, within minutes of deployment set up the unit as a standalone depth/snowfall sensor and data logger. Return periodically with an App-enable mobile device to download the latest data and instantly upload the data to a cloud platform, of your choice, for viewing, management, or analysis.
 
 ### Get the latest Mobile App:
-
-<center>
-<b>
-  
+ 
 Play Store          |  App Store
 :------------------:|:---------------------:
 [![](assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
-
-</b>  
-</center>
 
 ## Applications
 
