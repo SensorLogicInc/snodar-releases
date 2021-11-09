@@ -9,7 +9,7 @@
   <img src="assets/images/sli_logo.png" style="width:25%" />
 </p>
 
-# SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, Montana
+<center> <h1>SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, Montana</h1> </center>
 
 <p align="center">
   <img src="assets/images/splashscreen.png" style="width:30%" />
