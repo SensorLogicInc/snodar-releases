@@ -1,6 +1,8 @@
 # SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, MT
-<p align="center">
-  <img src="images/sli_logo.png" />
+
+<p float="left">
+  <img src="images/sli_logo.png" style="width:60%" />
+  <img src="images/splashscreen.png" style="width:30%" align="right" />
 </p>
 
 ## Product Overview: Available for Purchase [Here](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-snow-depth-sensor)
@@ -14,9 +16,7 @@ SNOdar measures seasonal snow depth and snowfall. Simultaneously, it can relay d
 
 The sensor is small and lightweight, yet durable enough to monitor snow depth all season long at -40 degC and colder. The unit is typically powered from +12 VDC battery source and consumes less than 0.5 Watt on average. A small battery and solar panel (e.g. 50Ah + 10W) is all that is needed for seasonal deployment, depending on lattitude. The unit can be set up to operate as a distance sensor, stormboard snowfall sensor, or a seasonal snow depth sensor. A powerful mobile App allows the user to quickly configure and deploy the unit as well as monitor real-time data when within Bluetooth range. As a stormboard sensor, view or download the latest storm snow total, wipe the board, and re-calibrate for the next snowfall event. Furthermore, within minutes of deployment set up the unit as a standalone depth/snowfall sensor and data logger. Return periodically with an App-enable mobile device to download the latest data and instantly upload the data to a cloud platform, of your choice, for viewing, management, or analysis.
 
-<p align="center">
-  <img src="images/splashscreen.png" />
-</p>
+### Get the latest Mobile App:
 
 Play Store App                                                                                  |  iOS App Store
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
@@ -86,6 +86,11 @@ Play Store App                                                                  
 ```
 ├── data_sheet
 │   ├── SNOdar_Data_Sheet.pdf           # Main PDF data sheet
+├── field_data_WY2021
+│   ├── README.md                       # Info on field data sites
+│   ├── BannerSummitSNOdarWY2021.png    # Data PNG
+│   ├── BogusBasinSNOdarWY2021.png      # Data PNG
+│   ├── BridgerBowlSNOdarWY2021.png     # Data PNG
 ├── images                              # Contains the images used in the top level markdown file
 ├── privacy-policy
 │   ├── README.md                       # Privacy policy markdown file
