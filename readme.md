@@ -9,11 +9,17 @@
   <img src="assets/images/sli_logo.png" style="width:25%" />
 </p>
 
+&nbsp; 
+
 <center> <h1>SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, Montana</h1> </center>
+
+&nbsp; 
 
 <p align="center">
   <img src="assets/images/splashscreen.png" style="width:30%" />
 </p>
+
+&nbsp; 
 
 ## Product Overview: Available for Purchase [Here](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-snow-depth-sensor)
 SensorLogic's new SNOdar sensor is used for accurately and robustly monitoring snow depth and new snowfall in remote sensing applications, even during winter storm events.
