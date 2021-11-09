@@ -35,8 +35,8 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 ### Get the latest Mobile App:
  
 <p align="middle">
-  <img src="assets/images/google-play-badge.png" width="300" />
-  <img src="assets/images/apple-app-store-badge.png" width="300" /> 
+  <a href="https://play.google.com/store/apps/details?id=com.snodar"><img src="assets/images/google-play-badge.png" width="350" /></a>
+  <a href="https://apps.apple.com/us/app/snodar/id1584974884"><img src="assets/images/apple-app-store-badge.png" width="350" /></a> 
 </p>
 
 ## Applications
