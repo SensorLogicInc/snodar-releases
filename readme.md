@@ -1,7 +1,7 @@
 # SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, MT
 
 <p align="center">
-  <img src="assets/images/splashscreen.png" style="width:40%" />
+  <img src="assets/images/splashscreen.png" style="width:30%" />
 </p>
 
 ## Product Overview: Available for Purchase [Here](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-snow-depth-sensor)
