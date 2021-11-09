@@ -1,7 +1,18 @@
+- [User Guides](user_guides)
+- [SDI-12 Info](sdi12_info)
+- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
+- [Field Data](field_data_WY2021)
+- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
+- [Privacy Policy](privacy-policy)
+
+<p align="center">
+  <img src="assets/images/sli_logo.png" style="width:25%" />
+</p>
+
 # SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, MT
 
 <p align="center">
-  <img src="assets/images/splashscreen.png" style="width:30%" />
+  <img src="assets/images/splashscreen.png" style="width:35%" />
 </p>
 
 ## Product Overview: Available for Purchase [Here](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-snow-depth-sensor)
@@ -17,18 +28,9 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 
 ### Get the latest Mobile App:
 
-Play Store App                                                                                  |  iOS App Store
-:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
+Play Store          |  App Store
+:------------------:|:---------------------:
 [![](assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
-
-## Quick Links
-
-- [User Guides](user_guides)
-- [SDI-12 Info](sdi12_info)
-- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
-- [Field Data](field_data_WY2021)
-- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
-- [Privacy Policy](privacy-policy)
 
 ## Applications
 
