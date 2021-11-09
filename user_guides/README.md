@@ -1,4 +1,4 @@
-# SNOdar Quick Start Guide: [PDF Download](snodar_quick_start_guide.pdf)
+# SNOdar Quick Start Guide: [PDF](snodar_quick_start_guide.pdf)
 
 [Back](../)
 
@@ -54,7 +54,7 @@ Depending on your mobile device of choice:
 
 Play Store App                                                                                  |  iOS App Store
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
-[![](../images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](../images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
+[![](../assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](../assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
 ## Run the App
 
