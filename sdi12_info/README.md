@@ -80,3 +80,5 @@ a: sensor address, e.g. 0
 - Connection diagram for the CR6
 
 ![](cr6_hookup_pic.png)
+
+[Back](../)
