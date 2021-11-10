@@ -248,3 +248,5 @@ Orientation Drift Notification                      |  Heater Failure Notificati
 Main App Hamburger Menu Location              |  Main App General Info
 :--------------------------------------------:|:------------------------------------------------:
 ![](images/hamburger_menu_location.png)   |  ![](images/main_app_info_1.png)
+
+[Back](../)
