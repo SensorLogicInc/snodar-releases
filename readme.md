@@ -106,3 +106,5 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 │   ├── README.md                       # Quick Start Guide on the SNOdar sensor and setup via the mobile App
 │   └── images                          # Contains the images for this markdown file
 ```
+
+**[Home](https://www.sensorlogic.ai/)**
