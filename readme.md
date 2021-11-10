@@ -1,12 +1,9 @@
-- [User Guides](user_guides)
-- [SDI-12 Info](sdi12_info)
-- [Data Sheet PDF](data_sheet/SNOdar_Data_Sheet.pdf)
-- [Field Data](field_data_WY2021)
-- [Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases)
-- [Privacy Policy](privacy-policy)
+**[User Guides](user_guides) &nbsp;&nbsp;&nbsp;&nbsp;[SDI-12 Info](sdi12_info) &nbsp;&nbsp;&nbsp;&nbsp;[Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf) &nbsp;&nbsp;&nbsp;&nbsp;[Field Data](field_data_WY2021) &nbsp;&nbsp;&nbsp;&nbsp;[Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases) &nbsp;&nbsp;&nbsp;&nbsp;[Privacy Policy](privacy-policy)**
+
+&nbsp; 
 
 <p align="center">
-  <img src="assets/images/sli_logo.png" style="width:25%" />
+  <a href="https://sensorlogicinc.github.io/snodar-releases/"><img src="assets/images/sli_logo.png" style="width:25%" /></a>
 </p>
 
 &nbsp; 
@@ -16,7 +13,7 @@
 &nbsp; 
 
 <p align="center">
-  <img src="assets/images/splashscreen.png" style="width:30%" />
+  <a href="https://sensorlogicinc.github.io/snodar-releases/"><img src="assets/images/splashscreen.png" style="width:30%" /></a>
 </p>
 
 &nbsp; 
@@ -109,4 +106,4 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 │   ├── README.md                       # Quick Start Guide on the SNOdar sensor and setup via the mobile App
 │   └── images                          # Contains the images for this markdown file
 ```
-
+**[Home](https://sensorlogicinc.github.io/snodar-releases/)**
