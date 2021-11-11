@@ -1,19 +1,11 @@
 #### [User Guide](user_guides) &nbsp;&nbsp;&nbsp;&nbsp;[SDI-12 Info](sdi12_info) &nbsp;&nbsp;&nbsp;&nbsp;[Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf) &nbsp;&nbsp;&nbsp;&nbsp;[Field Data](field_data_WY2021) &nbsp;&nbsp;&nbsp;&nbsp;[Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases) &nbsp;&nbsp;&nbsp;&nbsp;[Privacy Policy](privacy-policy)
 
+# SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, Montana
+
 &nbsp; 
 
 <p align="center">
   <a href="https://sensorlogicinc.github.io/snodar-releases/"><img src="assets/images/sli_logo.png" style="width:25%" /></a>
-</p>
-
-&nbsp; 
-
-<center> <h1>SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, Montana</h1> </center>
-
-&nbsp; 
-
-<p align="center">
-  <a href="https://sensorlogicinc.github.io/snodar-releases/"><img src="assets/images/splashscreen.png" style="width:30%" /></a>
 </p>
 
 &nbsp; 
@@ -25,7 +17,11 @@ SensorLogic's new SNOdar sensor is used for accurately and robustly monitoring s
 <b>Accuracy + Low Power + Low Cost!</b>
 </p>
 
-SNOdar measures seasonal snow depth and snowfall. Simultaneously, it can relay data over a serial RS-232 or SDI-12 bus to commercially available telemetry, i.e. Satcom, data logger, or cell modem. Moreover, it can record an entire season of data on its internal, nonvolatile data logger so there is no need to pair every sensor with a separate data logger;therefore, a large cost savings upon deployment.
+SNOdar measures seasonal snow depth and snowfall. Simultaneously, it can relay data over a serial RS-232 or SDI-12 bus to commercially available telemetry, i.e. Satcom, data logger, or cell modem. Moreover, it can record an entire season of data on its internal, nonvolatile data logger so there is no need to pair every sensor with a separate data logger;therefore, a large cost savings upon deployment. 
+
+<p align="center">
+  <a href="https://sensorlogicinc.github.io/snodar-releases/"><img src="assets/images/splashscreen.png" style="width:30%" /></a>
+</p>
 
 The sensor is small and lightweight, yet durable enough to monitor snow depth all season long at -40 degC and colder. The unit is typically powered from +12 VDC battery source and consumes less than 0.5 Watt on average. A small battery and solar panel (e.g. 50Ah + 10W) is all that is needed for seasonal deployment, depending on lattitude. The unit can be set up to operate as a distance sensor, stormboard snowfall sensor, or a seasonal snow depth sensor. A powerful mobile App allows the user to quickly configure and deploy the unit as well as monitor real-time data when within Bluetooth range. As a stormboard sensor, view or download the latest storm snow total, wipe the board, and re-calibrate for the next snowfall event. Furthermore, within minutes of deployment set up the unit as a standalone depth/snowfall sensor and data logger. Return periodically with an App-enable mobile device to download the latest data and instantly upload the data to a cloud platform, of your choice, for viewing, management, or analysis.
 
