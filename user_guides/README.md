@@ -2,9 +2,7 @@
 
 [Back](../)
 
-## Quick Start Videos
-
-- [Download and Share SNOLOGs](https://youtu.be/6FmjWUfTF6Q)
+[Quick Start Videos](video_guides.html)
 
 ## Power and Boot Sensor
 
