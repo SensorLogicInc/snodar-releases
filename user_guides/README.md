@@ -2,7 +2,7 @@
 
 [Back](../)
 
-[Quick Start Videos](video_guides.md)
+[Quick Start Video Guides](video_guides.md)
 
 ## Power and Boot Sensor
 
