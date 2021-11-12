@@ -2,6 +2,10 @@
 
 [Back](../)
 
+## Quick Start Videos
+
+- [Download and Share SNOLOGs](https://youtu.be/6FmjWUfTF6Q)
+
 ## Power and Boot Sensor
 
 1. Unbox and attach the 6-pin power cable to the main connector. The connection is directionally keyed. Make sure to engage the bayonet locking mechanism. 
