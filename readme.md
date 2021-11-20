@@ -1,5 +1,7 @@
 #### [User Guide](user_guides) &nbsp;&nbsp;&nbsp;&nbsp;[Video Guides](user_guides/video_guides.md) &nbsp;&nbsp;&nbsp;&nbsp;[SDI-12 Info](sdi12_info) &nbsp;&nbsp;&nbsp;&nbsp;[Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf) &nbsp;&nbsp;&nbsp;&nbsp;[Field Data](field_data_WY2021) &nbsp;&nbsp;&nbsp;&nbsp;[Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases) &nbsp;&nbsp;&nbsp;&nbsp;[Privacy Policy](privacy-policy)
 
+### Major Firmware Update v0.6.0 + App Update v0.3.4 as of 11-17-2021!
+
 # SNOdar Snow Depth Sensor by SensorLogic, Inc from Bozeman, Montana
 
 &nbsp; 
