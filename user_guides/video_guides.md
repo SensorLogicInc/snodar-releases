@@ -20,6 +20,12 @@ Check the current firmware and update the SNOdar with the latest firmware over B
 
 <iframe width="320" height="545" src="https://www.youtube.com/embed/v8IoPYJle9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### More Coming!
+## App Settings Review
+
+Details and description for all the SNOdar Mobile App Settings
+
+<iframe width="320" height="545" src="https://www.youtube.com/embed/Y_3Qnww5xIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### SensorLogic YouTube Channel
 
 [![](images/youtube-icon.png)](https://www.youtube.com/channel/UC4cqOstvLvUeWRujbzJq9Tw)
