@@ -84,6 +84,22 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 | Size                  | 6.3 x 6.3 x 9.5 (W x L x H)                                                    |          |          | cm            |
 | Obliqueness           | From vertical, angle slant relative to measuring surface                       | -30      | 30       | degrees       |
 
+## Electrical Interfaces
+
+### Wired
+
+The communication standards accessible on cable allow for rapid deployment with commercial off-the-shelf (COTS) telemetry devices. 
+- 1 RS-232 port (common among commercial Satcom / LTE modems)
+- 1 [SDI-12 port](sdi12_info) (common among remote sensors and commerical data loggers)
+
+### Wireless
+
+#### Bluetooth Low Energy (BLE) 5.x
+
+- 2 Mbps PHY capable, up to 50 meters Line-of-Sight (LOS)
+- Long Range 125 Kbps PHY, up to 250 meters LOS
+- The wireless connection allows for quick setup and calibration, data monitoring and sharing.
+
 ## Folder Structure
 
 ```
