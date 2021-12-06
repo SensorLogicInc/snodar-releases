@@ -100,6 +100,24 @@ The communication standards accessible on cable allow for rapid deployment with 
 - Long Range 125 Kbps PHY, up to 250 meters LOS
 - The wireless connection allows for quick setup and calibration, data monitoring and sharing.
 
+## Regulatory Compliance & Certs
+
+### Full Compliance
+
+- EMC
+  - [x] FCC 15B and ISES-003 Issue 7
+  - [x] CISPR 32:2015 / CENELEC EN 55032:2015
+  - [x] CISPR 35:2016 / CENELEC EN 55035:2017
+  - [x] ETSI EN 301 489-1 v2.2.3:2019
+  - [x] ETSI EN 301 489-17 v3.1.1:2020
+- IP67
+  - [x] IEC 60529 Section 13.4, 13.6
+  - [x] IEC 60529 Section 14.2.7
+- Safety
+    - [x] IEC 61010-1:2010
+    - [x] IEC 61010-1:2010/AMD1:2016
+- [x] RoHS
+
 ## Folder Structure
 
 ```
