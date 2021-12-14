@@ -107,7 +107,7 @@ The communication standards accessible on cable allow for rapid deployment with 
 The cable that ships with the SNOdar has a straight overmolded connector. 
   - Rated -40°C to 105°C
  - Power Rating: 300V
- - IP68 Connector (Outer Jacket is UV and Water ResistantUV and Water Resistant)
+ - IP68 Connector (Outer Jacket is UV and Water Resistant)
  - Wire Gauge: 20 AWG
  - UL Recognized, CSA Certified and RoHS Compliant
  - Length: 10 meters
