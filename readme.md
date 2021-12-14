@@ -104,17 +104,26 @@ The communication standards accessible on cable allow for rapid deployment with 
 
 ### Cable
 
-The cable that ships with the SNOdar has the following specs:
- - Rated down to -40°C
- - 10 meter length
+The cable that ships with the SNOdar has a straight overmolded connector. 
+  - Rated -40°C to 105°C
+ - Power Rating: 300V
+ - IP68 Connector (Outer Jacket is UV and Water ResistantUV and Water Resistant)
+ - Wire Gauge: 20 AWG
+ - UL Recognized, CSA Certified and RoHS Compliant
+ - Length: 10 meters
  - Blunt cut for connection flexibility
 
 The [cable pinout](user_guides) and [cable data sheet](data_sheet/5C8070_CD.pdf).
 
 ### Mounting Clamp
 
-The clamp that ships with the SNOdar is aluminum 6061-T6 with 304-stainless steel hardware and accommodates a pipe OD of 38-40 mm (1.49-1.58"). Please contact SLI if a different size clamp is required.
- - The [clamp data sheet](data_sheet/CJS5001(40)AS.pdf)
+The clamp that ships with the SNOdar is aluminum 6061-T6 with 304-stainless steel hardware and accommodates a pipe OD of 1.49-1.58". Please contact SLI if a different size clamp is required.
+ - Medium duty clamp for 1.5" OD Tube
+ - Minimum Tube Size: 38mm 
+ - Maximum Tube Size: 40mm
+ - Maximum Load Capacity: 100kg/220lbs
+
+The [clamp drawing](data_sheet/CJS5001(40)AS.pdf).
 
 ## Regulatory Compliance & Certs
 
