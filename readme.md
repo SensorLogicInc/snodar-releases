@@ -123,7 +123,7 @@ The clamp that ships with the SNOdar is aluminum 6061-T6 with 304-stainless stee
  - Maximum Tube Size: 40mm
  - Maximum Load Capacity: 100kg/220lbs
 
-The [clamp drawing](data_sheet/CJS5001(40)AS.pdf).
+The [clamp drawing](data_sheet/CJS5001(40)AS.pdf), a custom derivative of this pn: [MINI 360 1.5](https://www.globaltruss.com/mini-360-1-5).
 
 ## Regulatory Compliance & Certs
 
