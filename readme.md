@@ -63,8 +63,8 @@ The sensor is small and lightweight, yet durable enough to monitor snow depth al
 | Parameter             | Sub-Parameter Description                                                      | Min      | Max      | Units         |
 | --------------------- | ------------------------------------------------------------------------------ | -------- | -------- | ------------- |
 | Input Voltage         | Input voltage range (VDC)                                                      | 6        | 24       | volts         |
-| Operating Temperature | Outside, ambient operating temperature range                                   | -40      | 60       | degC          |
-| Storage Temperature   | Inside, ambient storage temperature range                                      | -40      | 85       | degC          |
+| Operating Temperature | Outside, ambient operating temperature range                                   | -40      | 60       | °C            |
+| Storage Temperature   | Inside, ambient storage temperature range                                      | -40      | 85       | °C            |
 | Mechanical Vibration  | Mil-STD-883D, Method 2007.2, 20 to 2000 Hz                                     |          | 20       | g             |
 | Mechanical Shock      | Mil-STD-883D, Method 2002.3, 1 msec, 1/2 sine, mounted                         |          | 500      | g             |
 | Ingress Protection    | Dust tight. Immersion, up to 1 meter depth                                     | IP67     |          |               |
@@ -105,16 +105,16 @@ The communication standards accessible on cable allow for rapid deployment with 
 ### Cable
 
 The cable that ships with the SNOdar has the following specs:
- - Rated down to -40 degC
+ - Rated down to -40°C
  - 10 meter length
- - Blunt cut for user flexibility
+ - Blunt cut for connection flexibility
 
-The [cable pinout](user_guides) and [cable data sheet](data_sheet/5C8070_CD.pdf) links.
+The [cable pinout](user_guides) and [cable data sheet](data_sheet/5C8070_CD.pdf).
 
 ### Mounting Clamp
 
-The clamp that ships with the SNOdar is aluminum 6061-T6 with 304-stainless steel hardware and accommodates a pipe OD of 38-40 mm (1.49-1.58"). 
-The [clamp data sheet](data_sheet/CJS5001(40)AS.pdf) link. Please contact if different size clamp is required.
+The clamp that ships with the SNOdar is aluminum 6061-T6 with 304-stainless steel hardware and accommodates a pipe OD of 38-40 mm (1.49-1.58"). Please contact SLI if a different size clamp is required.
+ - The [clamp data sheet](data_sheet/CJS5001(40)AS.pdf)
 
 ## Regulatory Compliance & Certs
 
