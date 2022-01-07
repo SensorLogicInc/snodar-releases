@@ -10,7 +10,9 @@
 
 ![](images/snodar_power.png)
 
-2. Supply 6-24 VDC (3.5W supply minimum is needed to test the heater) to the cable leads according to the pinout below (either GND can be used):
+2. Supply 6-24 VDC (3.5W supply minimum is needed to test/activate the heater) to the cable leads according to the pinout below:
+
+- Either GND is acceptable to use
 
 | SNOdar Pin Name | SNOdar Pin NO. | Cable Pin NO. |  Wire Color |
 | --------------- | -------------- | ------------- | ----------- |
@@ -21,12 +23,18 @@
 | TX: RS-232      | 5              | 5             | BLUE        |
 | RX: RS-232      | 6              | 6             | VIOLET      |
 
+> Note: **15 Watt** capable, or less, max power supply is required. When on battery supply, an inline fuse **MUST** be located close to the battery that limits the battery supply to 15W or less. For example:
+- @ 12Vdc use a 1A fuse
+- @ 24Vdc use a 0.5A fuse
+
 3. Once powered, look for flashing Green LEDs (20 flashes @ 5 Hz) to indicate _Good Health_ and Bluetooth Low Energy (BLE) advertising. If the LEDs flash RED instead, click on the `Sensor Health` on the _Home_ card to note exactly what failed. THis will aid in support diagnostics. 
+
 4. If in the field go to [Installation and Mounting](#installation-and-mounting) directly below; otherwise, set sensor aside and set up the [SNOdar Mobile App](#download-the-app) on your mobile device.
 
 ## Installation and Mounting
 
 ### Mounting Height
+
 Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixture.
 
 ![](images/snodar_mounting_diagram.png)
@@ -36,9 +44,11 @@ As a reference, this is the approximate cone projection field-of-view (FOV) of t
 ![](images/snodar_fov.png)
 
 ### Obliqueness
+
 For best performance, rotationally mount the sensor so that it is normal to the ground, i.e. measuring perpendicular to the ground surface; however, it does have the ability to be mounted at angles or on hillsides, up to 30 degrees from normal.
 
 #### IMU Directionality
+
 - **Roll**: Rotation about the axis running through the clamp mount (this is the rotation monitored in **Stormboard** mode, 20 degrees is ideal)
 - **Pitch**: Rotation about the axis running through the connector
 - **Yaw**: Rotation about the axis running through the top dome peak
@@ -48,8 +58,10 @@ Roll                         |  Pitch                         | Yaw
 ![](images/snodar_roll.jpg)  |  ![](images/snodar_pitch.jpg)  | ![](images/snodar_yaw.jpg)
 
 ### Ground Preparation
+
 Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps below the sensor. Also, remove and clear large foliage and tall, dense grass below and around the sensor within the cone of influence (based on the mounting height). Ideally, a level dirt/rock pad is prepared below the sensor for the most accurate seasonal measurements. 
-- Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
+
+> Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
 
 ## Download the App
 Depending on your mobile device of choice:
