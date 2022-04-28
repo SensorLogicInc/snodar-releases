@@ -1,4 +1,4 @@
-#### [User Guide](user_guides) &nbsp;&nbsp;&nbsp;&nbsp;[Video Guides](user_guides/video_guides.md) &nbsp;&nbsp;&nbsp;&nbsp;[SDI-12 Info](sdi12_info) &nbsp;&nbsp;&nbsp;&nbsp;[Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf) &nbsp;&nbsp;&nbsp;&nbsp;[Field Data 2021](field_data_WY2021) &nbsp;&nbsp;&nbsp;&nbsp;[Comparison Data 2022](field_data_WY2022) &nbsp;&nbsp;&nbsp;&nbsp;[Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases) &nbsp;&nbsp;&nbsp;&nbsp;[Privacy Policy](privacy-policy) &nbsp;&nbsp;&nbsp;&nbsp;[Eula](eula/SNOdar_End_User_License_Agreement.pdf)
+#### [User Guide](user_guides) &nbsp;&nbsp;&nbsp;&nbsp;[Video Guides](user_guides/video_guides.md) &nbsp;&nbsp;&nbsp;&nbsp;[SDI-12 Info](sdi12_info) &nbsp;&nbsp;&nbsp;&nbsp;[Data Sheet](data_sheet/SNOdar_Data_Sheet.pdf) &nbsp;&nbsp;&nbsp;&nbsp;[Field Data 2021](field_data_WY2021) &nbsp;[2022](field_data_WY2022) &nbsp;&nbsp;&nbsp;&nbsp;[Latest Firmware Release](https://github.com/SensorLogicInc/snodar-releases/releases) &nbsp;&nbsp;&nbsp;&nbsp;[Privacy Policy](privacy-policy) &nbsp;&nbsp;&nbsp;&nbsp;[Eula](eula/SNOdar_End_User_License_Agreement.pdf)
 
 <p href="https://github.com/SensorLogicInc/snodar-releases/releases" align="center" style="color:red;font-size:18px;"> Major Firmware Update v0.7.3 + App Update v0.4.4 as of 01-18-2021 (see Changelog)! </p>
 
@@ -147,21 +147,31 @@ The [clamp drawing](data_sheet/CJS5001(40)AS.pdf), a custom derivative of this p
 
 ```
 ├── data_sheet
-│   ├── SNOdar_Data_Sheet.pdf           # Main PDF data sheet
+│   ├── SNOdar_Data_Sheet.pdf                               # Main SNOdar PDF data sheet
+│   ├── SNOdar_Data_Sheet_2pg.pdf                           # Main SNOdar PDF short form data sheet
+│   ├── 5C8070_CD.pdf                                       # Cable data sheet
+│   └── CJS5001(40)AS.pdf                                   # Mounting Clamp data sheet
+├── eula
+│   └── SNOdar_End_User_License_Agreement.pdf               # SNOdar EULA PDF
 ├── field_data_WY2021
-│   ├── README.md                       # Info on field data sites
-│   ├── BannerSummitSNOdarWY2021.png    # Data PNG
-│   ├── BogusBasinSNOdarWY2021.png      # Data PNG
-│   ├── BridgerBowlSNOdarWY2021.png     # Data PNG
+│   ├── README.md                                           # Info on field data sites
+│   ├── BannerSummitSNOdarWY2021.png                        # Data PNG
+│   ├── BogusBasinSNOdarWY2021.png                          # Data PNG
+│   └── BridgerBowlSNOdarWY2021_markups.png                 # Data PNG
+├── field_data_WY2022
+│   ├── README.md                                           # Info on field data sites
+│   ├── BridgerBowlBrackettCreekSNOdarWY2022_markups.png    # Data PNG
+│   └── BridgerBowlSacajaweaSNOdarWY2022_markups.png        # Data PNG
 ├── privacy-policy
-│   ├── README.md                       # Privacy policy markdown file
+│   └── README.md                                           # Privacy policy markdown file
 ├── sdi12_info
-│   ├── README.md                       # Basic information on the SDI-12 interface and data
-│   ├── 1_minute_9_values.CR1X          # Logger program for CR1000X data loggers
-│   ├── 1_minute_9_values.cr6           # Logger program for CR6 data loggers
+│   ├── README.md                                           # Basic information on the SDI-12 interface and data
+│   ├── 1_minute_9_values.CR1X                              # Logger program for CR1000X data loggers
+│   └── 1_minute_9_values.cr6                               # Logger program for CR6 data loggers
 ├── user_guides
-│   ├── README.md                       # Quick Start Guide on the SNOdar sensor and setup via the mobile App
-│   └── images                          # Contains the images for this markdown file
+│   ├── README.md                                           # Quick Start Guide on the SNOdar sensor and setup via the mobile App
+│   ├── snodar_quick_start_guide.pdf                        # Quick Start Guide on the SNOdar sensor and setup via the mobile App PDF
+│   └── images                                              # Contains the images for this markdown file
 ```
 
 **[Home](https://www.sensorlogic.ai/)**
