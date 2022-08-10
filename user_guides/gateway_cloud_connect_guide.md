@@ -16,7 +16,7 @@ Play Store App                                                                  
 
 ## Hardware Setup
 
-### __---Power and Boot Gateway__
+### __--Power and Boot Gateway__
 
 1. Unbox and attach the 6-pin power cable to the main connector. The connection is directionally keyed. Make sure to engage the bayonet locking mechanism. 
 
@@ -39,7 +39,7 @@ Chairlift Gateway            |  Power Connection
 - @ 12Vdc use a 1A fuse
 - @ 24Vdc use a 0.5A fuse
 
-### __---Connect to SNOdar__
+### __--Connect to SNOdar__
  
 1. Once powered, both LEDs will be __RED__ upon boot. 
 
@@ -53,7 +53,7 @@ Chairlift Gateway            |  Power Connection
 
 ## SNOdar Provisioning
 
-### __---Dashboard Setup__
+### __--Dashboard Setup__
 
 1. Provisioning the SNOdar with the [snodar.io](https://app.snodar.io/groups/) Cloud Service using the Mobile Link can be done independently of the Gateway backhaul unit; however, it is useful to have both units powered and operational so data can be verified on the [Dashboard](https://app.snodar.io/) once the steps are completed.
 
@@ -66,14 +66,12 @@ Chairlift Gateway            |  Power Connection
 ![](images/dashboard_groups.PNG)
 
 4. Once the `Group` is created, click on the `<Group Name>`, then click `Link Mobile Device` to retrieve a provisiong code. Copy the code for later use in the [Mobile App](#mobile-app-setup).
+ 
+Edit Group                              |  Link Mobile Device                           | Get Link Code                                        
+:--------------------------------------:|:---------------------------------------------:|:---------------------------------------:
+![](images/dashboard_edit_group.PNG)    |  ![](images/dashboard_link_mobile_device.PNG) |  ![](images/dasboard_link_code.PNG)
 
-![](images/dashboard_edit_group.PNG)
-
-![](images/dashboard_link_mobile_device.PNG)
-
-![](images/dasboard_link_code.PNG)
-
-### __---Mobile App Setup__
+### __--Mobile App Setup__
 
 1. Power the SNOdar sensor, according to the [User Guide](README.md), and start the Mobile App in your mobile device. Connect to the SNOdar unit via BLE.
 
@@ -89,11 +87,13 @@ Chairlift Gateway            |  Power Connection
 
 4. Navigate back to the Mobile App `Home` page (you should still be connected to the desired SNOdar sensor) to `Register` the specific SNOdar and `Enable` the SNOLOG cloud upload, by toggling the [Cloud](images/cloud_disable_enable.png) icon.
 
+![](images/cloud_disable_enable.png)
+
 5. Toggle the [Cloud](images/cloud_disable_enable.png) icon to `Register`, then toggle again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and be enabled.
 
 Toggle                                  |  Register                              | Toggle                                  | Enable                    
 :--------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:
-![](images/mobile_cloud_enable_1.PNG)   |  ![](images/mobile_cloud_register.PNG) |  ![](images/mobile_cloud_enable_1.PNG)) |  ![](images/mobile_cloud_enable_2.PNG)  
+![](images/mobile_cloud_enable_1.PNG)   |  ![](images/mobile_cloud_register.PNG) |  ![](images/mobile_cloud_enable_1.PNG)  |  ![](images/mobile_cloud_enable_2.PNG)  
 
 6. Finally, the [Cloud](images/cloud_disable_enable.png) icon will display as `Enabled`, indicating the Gateway is now uploading a SNOLOG from the desired SNOdar, based on the configured `Interval Time` requested in the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM).
 
