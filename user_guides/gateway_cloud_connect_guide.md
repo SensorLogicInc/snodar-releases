@@ -10,7 +10,7 @@
 - SNOdar Firmware: [snodar-v0.8.0](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.8.0-beta) or later (see [SNOdar DFU](https://www.youtube.com/embed/v8IoPYJle9w) to first update the SNOdar's firmware)
 - Mobile App: `SNOdar Snow Depth v0.4.6` or later (update this in your mobile app store of choice)
 
-Play Store App                                                                                  |  iOS App Store
+Google Play Store App                                                                                  |  iOS App Store
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 [![](../assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](../assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
@@ -83,7 +83,7 @@ Edit Group                              |  Link Mobile Device                   
 
 ![](images/mobile_link_dropdown.PNG)
 
--3. Type in the `Group Code` you copied from `Link Mobile Device` on the web [Dashboard](https://app.snodar.io/) and hit `Submit`.
+-3. Type in the `Group Code` you copied from `Link Mobile Device`(Step 4 of Dashboard Setup) on the web [Dashboard](https://app.snodar.io/) and hit `Submit`.
 
 ![](images/mobile_link_code.PNG)
 
