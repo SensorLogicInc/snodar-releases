@@ -64,6 +64,7 @@ Before **Setup** and **Calibration**, clear the ground of any debris, e.g. stick
 > Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
 
 ## Download the App
+
 Depending on your mobile device of choice:
 
 Play Store App                                                                                  |  iOS App Store
@@ -76,7 +77,9 @@ Play Store App                                                                  
 To run the fully featured App, Bluetooth and Location services (i.e. GPS) *MUST* be enabled.
 
 ### Connect
+
 ![](images/connect_screen.png)
+
 1. To connect to a sensor, tap the **+** sign in the lower right corner of the screen.
 
 2. From the **Add Sensor** screen, connect to the desired sensor by tapping on the **Connect** button by the sensor’s name.
