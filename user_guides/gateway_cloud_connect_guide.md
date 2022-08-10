@@ -2,7 +2,7 @@
 
 [Back](../)
 
-> **Purchase on our web shop: [SNOdar + Chairlift Gateway Bundle](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-chairlift-gateway?variant=42569883025563)**
+> ### **Purchase on our web shop: [SNOdar + Chairlift Gateway Bundle](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-chairlift-gateway?variant=42569883025563)**
 
 
 ## Dependencies
@@ -16,7 +16,7 @@ Play Store App                                                                  
 
 ## Hardware Setup
 
-### __--Power and Boot Gateway__
+### __Power and Boot Gateway__
 
 1. Unbox and attach the 6-pin power cable to the main connector. The connection is directionally keyed. Make sure to engage the bayonet locking mechanism. 
 
@@ -39,7 +39,7 @@ Chairlift Gateway            |  Power Connection
 - @ 12Vdc use a 1A fuse
 - @ 24Vdc use a 0.5A fuse
 
-### __--Connect to SNOdar__
+### __Connect to SNOdar__
  
 1. Once powered, both LEDs will be __RED__ upon boot. 
 
@@ -53,7 +53,7 @@ Chairlift Gateway            |  Power Connection
 
 ## SNOdar Provisioning
 
-### __--Dashboard Setup__
+### __Dashboard Setup__
 
 1. Provisioning the SNOdar with the [snodar.io](https://app.snodar.io/groups/) Cloud Service using the Mobile Link can be done independently of the Gateway backhaul unit; however, it is useful to have both units powered and operational so data can be verified on the [Dashboard](https://app.snodar.io/) once the steps are completed.
 
@@ -71,7 +71,7 @@ Edit Group                              |  Link Mobile Device                   
 :--------------------------------------:|:---------------------------------------------:|:---------------------------------------:
 ![](images/dashboard_edit_group.PNG)    |  ![](images/dashboard_link_mobile_device.PNG) |  ![](images/dasboard_link_code.PNG)
 
-### __--Mobile App Setup__
+### __Mobile App Setup__
 
 1. Power the SNOdar sensor, according to the [User Guide](README.md), and start the Mobile App in your mobile device. Connect to the SNOdar unit via BLE.
 
