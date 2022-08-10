@@ -2,6 +2,9 @@
 
 [Back](../)
 
+> **Purchase on our web shop: [SNOdar + Chairlift Gateway Bundle](https://sensorlogic.store/collections/snow-science-instrumentation/products/snodar-chairlift-gateway?variant=42569883025563)**
+
+
 ## Dependencies
 
 - SNOdar Firmware: [snodar-v0.8.0](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.8.0-beta) or later (see [SNOdar DFU](https://www.youtube.com/embed/v8IoPYJle9w) to first update the SNOdar's firmware)
