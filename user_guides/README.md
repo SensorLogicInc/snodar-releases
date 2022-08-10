@@ -4,6 +4,8 @@
 
 [Quick Start Video Guides](video_guides.md)
 
+[SNOdar Chairlift Gateway + SNOdar Cloud Connection Guide](gateway_cloud_connect_guide.md)
+
 ## Power and Boot Sensor
 
 1. Unbox and attach the 6-pin power cable to the main connector. The connection is directionally keyed. Make sure to engage the bayonet locking mechanism. 
