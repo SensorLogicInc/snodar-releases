@@ -22,7 +22,7 @@ Play Store App                                                                  
 
 Chairlift Gateway            |  Power Connection                     
 :---------------------------:|:------------------------------:
-![](images/snochgw.jpg)      |  ![](images/snochgw_power.jpg)  
+![](images/snochgw.JPG)      |  ![](images/snochgw_power.jpg)  
 
 2. Supply 6-24 VDC (0.5W supply minimum is needed to support the LTE-M backhaul) to the cable leads according to the pinout below:
 
