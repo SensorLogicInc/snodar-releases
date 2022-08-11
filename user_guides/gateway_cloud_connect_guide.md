@@ -45,13 +45,13 @@ Chairlift Gateway            |  Power Connection
  
 -1. Once powered, both LEDs will be __RED__ upon boot. 
 
-> Note: If the SNOdar has already been [Provisioned](#snodar-provisioning), see below, The left LED (BLE Indicator) will turn __Blue__ once it connects to a valid SNOdar, with the greatest RSSI, via BLE and the right LED (LTE-M/LoRa Indicator) will turn __Green__ once it successfully connects to the LTE network in range.
+> Note: If the SNOdar has already been [Provisioned](#snodar-provisioning), see below, The left LED (Bluetooth/BLE Indicator) will turn __Blue__ once it connects to a valid SNOdar, with the greatest RSSI, via Bluetooth and the right LED (LTE-M/LoRa Indicator) will turn __Green__ once it successfully connects to the LTE network in range.
 
--2. Make sure the Gateway is in `Good` BLE signal range of the SNOdar, $\leq$ 20 meters.
+-2. Make sure the Gateway is in `Good` Bluetooth signal range of the SNOdar, &le; 20 meters.
 
 -3. Mount the Gateway on the SNOdar tower with [U-Bolts](https://www.mcmaster.com/u-bolts/center-to-center~1-1-2/thread-size~1-4-20/) or heavy-duty UV-resistant [Zipties](https://www.mcmaster.com/cable-ties/uv-protection~uv-resistant/width~0-23/width~0-22/width~0-2/width~0-19/minimum-temperature~-75-f/minimum-temperature~-65-f/minimum-temperature~-50-f/minimum-temperature~-40-f/). Typically, this can be below the SNOdar unit ~1 meter off the ground, depending on cell coverage. Unit(s) should be located outside for proper cell connectivity.
 
-> Note: The BLE LED will be solid __Blue__ and LTE LED will be solid __Green__ when everything is connected and operational. 
+> Note: The Bluetooth (BLE) LED will be solid __Blue__ and LTE LED will be solid __Green__ when everything is connected and operational. 
 
 ## SNOdar Provisioning
 
@@ -100,3 +100,20 @@ Toggle                                  |  Register                             
 -6. Finally, the [Cloud](images/cloud_disable_enable.png) icon will display as `Enabled`, indicating the Gateway is now uploading a SNOLOG from the desired SNOdar, based on the configured `Interval Time` requested in the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM).
 
 ![](images/mobile_cloud_enabled.PNG)
+
+## --------------------Troubleshooting FAQ--------------------
+
+1. What happens if the LTE LED never turns __Green__?
+    - Wait 5 minutes with the unit powered. The first time the LTE modem registers after being powered down for an extensive amount of time it can take awhile to re-register with the nearest tower.
+    - No antenna is attached. Make sure antenna is screwed on hand tight.
+    - Unit is mounted to low or being obstructed. Make sure unit is mounted at least 1 meter off the ground and has a clear view of the sky.
+    - Connectivity is poor in the area.  What carriers are available? What does your cell phone show for service? Move to a different spot with better service.
+2. What happens if the Bluetooth (BLE) LED never turns __Blue__?
+    - Is the SNOdar powered?
+    - Has the SNOdar been configued and setup properly via the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM)?
+    - Check that the Bluetooth communication is working by connecting with the Mobile app via your mobile device.
+    - Has the SNOdar been registered, is the [Cloud](images/cloud_disable_enable.png) icon enabled?
+3. What does it mean if the BLE LED turns Cyan -> Magenta?  
+    - The unit is performing a firmware update over-ther-air; let it finish.
+4. What does it mean if the BLE LED blinks?  
+    - This indicates a SNOLOG is being sent to the Cloud!
