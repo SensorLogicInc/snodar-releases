@@ -79,7 +79,7 @@ Edit Group                              |  Link Mobile Device                   
 
 ![](images/mobile_connect.PNG)
 
--2. Navigate to the main App `Settings` menu by using the [Hamburger Icon](images/hamburger_menu_location.png) in the upper right corner. Then activate the `Cloud Mobile Link` drop down and choose `+ Add a Group Code`.
+-2. Navigate to the main App `Settings` menu by using the [Hamburger Menu Icon](images/hamburger_menu_location.png) in the upper right corner. Then activate the `Cloud Mobile Link` drop down and choose `+ Add a Group Code`.
 
 ![](images/mobile_link_dropdown.PNG)
 
@@ -101,14 +101,14 @@ Toggle                                  |  Register                             
 
 ![](images/mobile_cloud_enabled.PNG)
 
-## --------------------Troubleshooting FAQ--------------------
+## Troubleshooting FAQ
 
-1. What happens if the LTE LED never turns __Green__?
+1. What if the LTE LED never turns __Green__?
     - Wait 5 minutes with the unit powered. The first time the LTE modem registers after being powered down for an extensive amount of time it can take awhile to re-register with the nearest tower.
     - No antenna is attached. Make sure antenna is screwed on hand tight.
     - Unit is mounted to low or being obstructed. Make sure unit is mounted at least 1 meter off the ground and has a clear view of the sky.
     - Connectivity is poor in the area.  What carriers are available? What does your cell phone show for service? Move to a different spot with better service.
-2. What happens if the Bluetooth (BLE) LED never turns __Blue__?
+2. What if the Bluetooth (BLE) LED never turns __Blue__?
     - Is the SNOdar powered?
     - Has the SNOdar been configued and setup properly via the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM)?
     - Check that the Bluetooth communication is working by connecting with the Mobile app via your mobile device.
@@ -117,3 +117,8 @@ Toggle                                  |  Register                             
     - The unit is performing a firmware update over-ther-air; let it finish.
 4. What does it mean if the BLE LED blinks?  
     - This indicates a SNOLOG is being sent to the Cloud!
+5. What if everything seems correct, but the SNOLOG is still not showing up on the [Dashboard](https://app.snodar.io/):
+    - Reboot the SNOdar unit by to disconnecting the power for 5 seconds, then reconnecting.
+    - Reboot the SNOdar by `Restarting` the unit via the Mobile App, from the `Home` screen, using the [Kebab Menu Icon](images/menu_icons.png)
+![](images/snodar_restart.jpg)
+    - Toggle the [Cloud](images/cloud_disable_enable.png) icon twice, `Disable` then `Enable`.
