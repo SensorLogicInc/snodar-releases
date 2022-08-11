@@ -113,11 +113,11 @@ Toggle                                  |  Register                             
     - Has the SNOdar been configued and setup properly via the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM)?
     - Check that the Bluetooth communication is working by connecting with the Mobile app via your mobile device.
     - Has the SNOdar been registered, is the [Cloud](images/cloud_disable_enable.png) icon enabled?
-3. What does it mean if the BLE LED turns Cyan -> Magenta?  
+3. What does it mean if the BLE LED turns __Cyan__ -> __Magenta__?  
     - The unit is performing a firmware update over-ther-air; let it finish.
-4. What does it mean if the BLE LED blinks?  
-    - This indicates a SNOLOG is being sent to the Cloud!
-5. What if everything seems correct, but the SNOLOG is still not showing up on the [Dashboard](https://app.snodar.io/):
+4. What does it mean if the __BLUE__ BLE LED blinks rapidly?  
+    - This indicates a SNOLOG is being sent to the Cloud [snodar.io Dashboard](https://app.snodar.io/)!
+5. What if everything seems correct, but the SNOLOG is still not rendering on the [Dashboard](https://app.snodar.io/)?
     - Reboot the SNOdar unit by to disconnecting the power for 5 seconds, then reconnecting.
     - Reboot the SNOdar by `Restarting` the unit via the Mobile App, from the `Home` screen, using the [Kebab Menu Icon](images/snodar_home_kebab.PNG)
 
