@@ -119,6 +119,10 @@ Toggle                                  |  Register                             
     - This indicates a SNOLOG is being sent to the Cloud!
 5. What if everything seems correct, but the SNOLOG is still not showing up on the [Dashboard](https://app.snodar.io/):
     - Reboot the SNOdar unit by to disconnecting the power for 5 seconds, then reconnecting.
-    - Reboot the SNOdar by `Restarting` the unit via the Mobile App, from the `Home` screen, using the [Kebab Menu Icon](images/menu_icons.png)
-![](images/snodar_restart.jpg)
-    - Toggle the [Cloud](images/cloud_disable_enable.png) icon twice, `Disable` then `Enable`.
+    - Reboot the SNOdar by `Restarting` the unit via the Mobile App, from the `Home` screen, using the [Kebab Menu Icon](images/snodar_home_kebab.PNG)
+
+    ![](images/snodar_restart.PNG)
+
+    - Toggle the [Cloud](images/cloud_disable_enable.png) icon twice, `Disable` then `Enable` again.
+
+    ![](images/mobile_cloud_enabled.PNG)
