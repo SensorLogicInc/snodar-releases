@@ -73,6 +73,8 @@ Edit Group                              |  Link Mobile Device                   
 :--------------------------------------:|:---------------------------------------------:|:---------------------------------------:
 ![](images/dashboard_edit_group.PNG)    |  ![](images/dashboard_link_mobile_device.PNG) |  ![](images/dasboard_link_code.PNG)
 
+>  Note, you have 2 minutes before this code expires and you will need to generate a new one, so it is helpful to open up the [`Group`](https://app.snodar.io/groups/) Dashboard link on your mobile device and copy the code directly into your mobile clipboard to then use within the Mobile App.
+
 ### __Mobile App Setup__
 
 -1. Power the SNOdar sensor, according to the [User Guide](README.md), and start the Mobile App in your mobile device. Connect to the SNOdar unit via BLE.
@@ -83,15 +85,17 @@ Edit Group                              |  Link Mobile Device                   
 
 ![](images/mobile_link_dropdown.PNG)
 
+> Note: If this is a subsequent sensor you are adding to an existing Group, make sure the correct `Cloud Mobile Link` for the desired Group is what is chosen under the `Active Key/Group`, i.e. the one with the __Green__ &#10004;. Otherwise, if this is a new Group, continue adding a new Group code with `+ Add Group Code`.
+
+![](images/mobile_link_active.PNG)
+
 -3. Type in the `Group Code` you copied from `Link Mobile Device`(Step 4 of Dashboard Setup) on the web [Dashboard](https://app.snodar.io/) and hit `Submit`.
 
 ![](images/mobile_link_code.PNG)
 
--4. Navigate back to the Mobile App `Home` page (you should still be connected to the desired SNOdar sensor) to `Register` the specific SNOdar and `Enable` the SNOLOG cloud upload, by toggling the [Cloud](images/cloud_disable_enable.png) icon.
+-4. Navigate back to the Mobile App `Home` page (you should still be connected to the desired SNOdar sensor) to `Register` the specific SNOdar and `Enable` the SNOLOG cloud upload.
 
-![](images/cloud_disable_enable.png)
-
--5. Toggle the [Cloud](images/cloud_disable_enable.png) icon to `Register`, then toggle again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and be enabled.
+-5. Toggle the [Cloud](images/cloud_disable_enable.png) icon to `Register`, then toggle again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and thus, be enabled.
 
 Toggle                                  |  Register                              | Toggle                                  | Enable                    
 :--------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:
@@ -126,3 +130,13 @@ Toggle                                  |  Register                             
     - Toggle the [Cloud](images/cloud_disable_enable.png) icon twice, `Disable` then `Enable` again.
 
     ![](images/mobile_cloud_enabled.PNG)
+    
+6. What if I want to add a SNOdar sensor to an existing Group?
+    - The Mobile App will default to the last Group `Cloud Mobile Link` that was created.
+    - To change this and register a new SNOdar to an existing Group or newly created Group, select the new Group as your `Active Key/Group`. This Group will now be the default under the `Cloud Mobile Link` setting and will also have a Green :heavy_check_mark: next to it in the `Active Key/Group` list.
+    - To do this from the beginning, go to the main `Settings` of the Mobile App using the Hamburger Menu in the top right-hand corner.
+        - Select `Cloud Mobile Link` to activate the dropdown menu.
+        - Click on the `Active Key/Group` dropdown. 
+        - Choose the desired Group / API Key pair for the currently connected SNOdar that requires provisioning.
+
+![](images/mobile_link_choose.PNG)
