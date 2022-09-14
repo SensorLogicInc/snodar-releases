@@ -118,7 +118,7 @@ Toggle                                  |  Register                             
     - Check that the Bluetooth communication is working by connecting with the Mobile app via your mobile device.
     - Has the SNOdar been registered, is the [Cloud](images/cloud_disable_enable.png) icon enabled?
 3. What does it mean if the BLE LED turns __Cyan__ -> __Magenta__?  
-    - The unit is performing a firmware update over-ther-air; let it finish.
+    - The unit is performing a firmware update over-the-air (OTA); let it finish.
 4. What does it mean if the __BLUE__ BLE LED blinks rapidly?  
     - This indicates a SNOLOG is being sent to the Cloud [snodar.io Dashboard](https://app.snodar.io/)!
 5. What if everything seems correct, but the SNOLOG is still not rendering on the [Dashboard](https://app.snodar.io/)?
@@ -139,4 +139,4 @@ Toggle                                  |  Register                             
       - Click on the `Active Key/Group` dropdown. 
       - Choose the desired Group / API Key pair for the currently connected SNOdar that requires provisioning.
 
-![](images/mobile_link_choose.PNG)
+      ![](images/mobile_link_choose.PNG)
