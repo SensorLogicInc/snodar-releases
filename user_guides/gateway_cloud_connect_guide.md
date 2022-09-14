@@ -134,7 +134,7 @@ Toggle                                  |  Register                             
 6. What if I want to add a SNOdar sensor to an existing Group?
     - The Mobile App will default to the last Group `Cloud Mobile Link` that was created.
     - To change this and register a new SNOdar to an existing Group or newly created Group, select the new Group as your `Active Key/Group`. This Group will now be the default under the `Cloud Mobile Link` setting and will also have a Green &#10004; next to it in the `Active Key/Group` list.
-    - To do this from the beginning, go to the main `Settings` of the Mobile App using the Hamburger Menu in the top right-hand corner.
+    - To do this from the beginning, go to the main `Settings` of the Mobile App using the Hamburger Menu in the top right-hand corner of the home screen.
       - Select `Cloud Mobile Link` to activate the dropdown menu.
       - Click on the `Active Key/Group` dropdown. 
       - Choose the desired Group / API Key pair for the currently connected SNOdar that requires provisioning.
