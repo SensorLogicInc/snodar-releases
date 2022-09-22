@@ -67,7 +67,7 @@ Chairlift Gateway            |  Power Connection
 
 ![](images/dashboard_groups.PNG)
 
--4. Once the `Group` is created, click on the `<Group Name>`, then click `Link Mobile Device` to retrieve a provisiong code. Copy the code for later use in the [Mobile App](#mobile-app-setup).
+-4. Once the `Group` is created, click on the `<Group Name>`, then click `Link Mobile Device` to retrieve a provisioning code. Copy the code for later use in the [Mobile App](#mobile-app-setup).
  
 Edit Group                              |  Link Mobile Device                           | Get Link Code                                        
 :--------------------------------------:|:---------------------------------------------:|:---------------------------------------:
