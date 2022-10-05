@@ -63,7 +63,9 @@ Roll                         |  Pitch                         | Yaw
 
 Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps below the sensor. Also, remove and clear large foliage and tall, dense grass below and around the sensor within the cone of influence (based on the mounting height). Ideally, a level dirt/rock pad is prepared below the sensor for the most accurate seasonal measurements. 
 
-> Note: if a dark/black surface, e.g. snow pillow canvas, is the original target, **Calibration** will NOT succeed. This is NOT a valid target.
+> Note: if a dark/black surface, e.g. snow pillow canvas, is the target **Calibration** will NOT succeed. This is NOT a valid target.
+
+> Note: a large piece of cardboard (i.e. biodegradable) is handy to lay on the ground underneath the sensor for calibration and seasonal measurement. This will flatten any pesky foliage and allow the snow to accumulate on a flat surface. Make sure to reference the cone projection FOV, above, regarding your mounting height to ensure the cardboard is large enough.
 
 ## Download the App
 
@@ -152,11 +154,13 @@ The Snowfall page allows for a time to be set at which the snowfall calculations
 
 ### Snow Class
 The Snow Class Page allows for the type of snow to be specified. Choose a snow class that best describes the snow in your region.
-- Alpine
-- Maritime
-- Prairie
-- Tundra
-- Taiga
+- Alpine: mountainous, typically colder and high elevation
+- Maritime: coastal, typically warmer and moist
+- Prairie: temperate grasslands, typically with high wind disturbance
+- Tundra: highest northern lattitudes and frigid tempertures, typically with little to no tree growth and permafrost
+- Taiga: high northern lattitudes, typically with coniferous forests
+
+> Note: The snow class is related to the bulk density DOY model used for SWE prediction. Moreover, the snow class is closely related to climate zones and is intended to encapsulate environmental variables like temperature, wind, and initial density, as well as the type of snow layers, which are well known for impacting bulk density. Chose the snow class based primarily on lat, long, and elev.
 
 ![](images/setup_three.png)
 
