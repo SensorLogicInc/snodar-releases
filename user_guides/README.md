@@ -262,9 +262,9 @@ Orientation Drift Notification                      |  Heater Failure Notificati
 
 ### Sensor Health Notifications
 
-- Upon booting up the sensor, you may find the sensor health is poor, i.e. a notification will show up on the sensor saying `Sensor Init. Failed`.
+- Upon booting up the sensor, you may find the sensor health is poor, e.g. a notification will show up on the sensor saying `Sensor Init Failed`.
 
-- First, re-boot the sensor and restart the mobile app. If there is still error messages after repeating this multiple times, contact SensorLogic so we can troubleshoot and present a solution.
+- First, re-boot the sensor and restart the mobile app. If there are still error messages after repeating this, contact SensorLogic with the failure code(s) so we can help troubleshoot a solution.
 
 ### Understanding the Menus
 
