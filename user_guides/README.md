@@ -266,6 +266,10 @@ Orientation Drift Notification                      |  Heater Failure Notificati
 
 - First, re-boot the sensor and restart the mobile app. If there are still error messages after repeating this, contact SensorLogic with the failure code(s) so we can help troubleshoot a solution.
 
+Notifications Indicating Good Health                     |  Notification That Sensor May Need Re-boot
+:--------------------------------------------------:|:------------------------------------------------:
+![](images/SensorHealthyNotification2.png) |  ![](images/SensorNotHealthScreenshot1.png)
+
 ### Understanding the Menus
 
 - Menu Legend
