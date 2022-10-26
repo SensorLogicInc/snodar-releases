@@ -14,6 +14,8 @@ Google Play Store App                                                           
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 [![](../assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](../assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
+## [Our Suggested Shopping List for Installation](https://sensorlogic.ai/sensor-products/SNOdar-Chairlift-Gateway)
+
 ## Hardware Setup
 
 ### __Power and Boot Gateway__
