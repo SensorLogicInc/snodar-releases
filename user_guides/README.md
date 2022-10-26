@@ -35,6 +35,8 @@
 
 ## Installation and Mounting
 
+### [Our Suggested Shopping List for Installation](https://sensorlogic.ai/sensor-products/snodar)
+
 ### Mounting Height
 
 Mount the sensor less than **9 meters** and more than **9 cm** from the ground or Stormboard fixture.
