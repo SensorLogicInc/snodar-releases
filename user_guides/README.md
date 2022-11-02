@@ -10,6 +10,10 @@
 
 1. Unbox and attach the 6-pin power cable to the main connector. The connection is directionally keyed. Make sure to engage the bayonet locking mechanism. 
 
+> Note
+>
+> To prevent corrosion on the connector terminals, use a [dielectric grease](https://a.co/d/9p1wNiH) at the connection point before deploying longterm, outside.
+
 ![](images/snodar_power.png)
 
 2. Supply 6-24 VDC (3.5W supply minimum is needed to test/activate the heater) to the cable leads according to the pinout below:
