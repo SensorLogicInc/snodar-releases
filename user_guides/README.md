@@ -10,8 +10,7 @@
 
 1. Unbox and attach the 6-pin power cable to the main connector. The connection is directionally keyed. Make sure to engage the bayonet locking mechanism. 
 
-> Note
->
+> __Note__
 > To prevent corrosion on the connector terminals, use a [dielectric grease](https://a.co/d/9p1wNiH) at the connection point before deploying longterm, outside.
 
 ![](images/snodar_power.png)
@@ -29,7 +28,7 @@
 | TX: RS-232      | 5              | 5             | BLUE        |
 | RX: RS-232      | 6              | 6             | VIOLET      |
 
-> Note: **15 Watt** capable, or less, max power supply is required. When on battery supply, an inline fuse **MUST** be located close to the battery that limits the battery supply to 15W or less. For example:
+> __Note__ **15 Watt** capable, or less, max power supply is required. When on battery supply, an inline fuse **MUST** be located close to the battery that limits the battery supply to 15W or less. For example:
 - @ 12Vdc use a 1A fuse
 - @ 24Vdc use a 0.5A fuse
 
@@ -69,9 +68,9 @@ Roll                         |  Pitch                         | Yaw
 
 Before **Setup** and **Calibration**, clear the ground of any debris, e.g. sticks, rocks, or uneven ground clumps below the sensor. Also, remove and clear large foliage and tall, dense grass below and around the sensor within the cone of influence (based on the mounting height). Ideally, a level dirt/rock pad is prepared below the sensor for the most accurate seasonal measurements. 
 
-> Note: if a dark/black surface, e.g. snow pillow canvas, is the target **Calibration** will NOT succeed. This is NOT a valid target.
+> __Note__ If a dark/black surface, e.g. snow pillow canvas, is the target **Calibration** will NOT succeed. This is NOT a valid target.
 
-> Note: a large piece of cardboard (i.e. biodegradable) is handy to lay on the ground underneath the sensor for calibration and seasonal measurement. This will flatten any pesky foliage and allow the snow to accumulate on a flat surface. Make sure to reference the cone projection FOV, above, regarding your mounting height to ensure the cardboard is large enough.
+> __Note__ A large piece of cardboard (i.e. biodegradable) is handy to lay on the ground underneath the sensor for calibration and seasonal measurement. This will flatten any pesky foliage and allow the snow to accumulate on a flat surface. Make sure to reference the cone projection FOV, above, regarding your mounting height to ensure the cardboard is large enough.
 
 ## Download the App
 
@@ -166,7 +165,7 @@ The Snow Class Page allows for the type of snow to be specified. Choose a snow c
 - Tundra: highest northern lattitudes and frigid tempertures, typically with little to no tree growth and permafrost
 - Taiga: high northern lattitudes, typically with coniferous forests
 
-> Note: The snow class is related to the bulk density DOY model used for SWE prediction. Moreover, the snow class is closely related to climate zones and is intended to encapsulate environmental variables like temperature, wind, and initial density, as well as the type of snow layers, which are well known for impacting bulk density. Chose the snow class based primarily on lat, long, and elev.
+> __Note__ The snow class is related to the bulk density DOY model used for SWE prediction. Moreover, the snow class is closely related to climate zones and is intended to encapsulate environmental variables like temperature, wind, and initial density, as well as the type of snow layers, which are well known for impacting bulk density. Chose the snow class based primarily on lat, long, and elev.
 
 ![](images/setup_three.png)
 
