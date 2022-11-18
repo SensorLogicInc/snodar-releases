@@ -182,14 +182,14 @@ The external logging configuration for off-board data acquisition devices contro
 ### Enhanced Temperature Control
 While the SNOdar has a standard temperature control setting, the Enhanced Temperature Control page allows for the temperature control to be disabled or set to a Line Powered control setting. Detailed information about each of these options can be found by tapping the `More Info` button inside the App. Also, note the explanations below.
 
-![](images/setup_four.png)
-
 > __Note__
 > The temperature control automatically enables/disables the internal heater (i.e. increases power consumption by ~6x) when a critical temperature threshold has been reached.  This will all be done autonomously while still optimizing the power usage; however, three temperature control options can be set externally by the user.
 
 1. __Standard__: This is the standard temperature control configuration that enables the heater at < -20 degC. Use this for (most) cases. Does NOT require Line Power.
 2. __Line Powered__: This uses more power but allows for a more consistent operating temperature which decreases measurement drift at low temperatures. If enabled, the SNOdar can consume up to 3.5 watts when outside temperatures are < -10 degC. Do NOT use if your sensor is NOT on Line Power.
 3. __Disabled__: This completely disables the temperature control system. Use with CAUTION. If enabled, the SNOdar will NOT consume additional power for heating. Disabling temperature control may cause extreme measurement drift at cold outside temperatures. Sensor Performance CANNOT be guaranteed at cold temperatures.
+
+![](images/setup_four.png)
 			
 ### Complete Setup
 Lastly, the Complete Setup Page provides a summary of the settings. Any setup steps that were skipped or are incomplete will have a red **x** next to them. To go back to these steps, press the menu button in the right corner of the setup page and choose the desired setup step from the menu.  
