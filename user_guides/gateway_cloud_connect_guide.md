@@ -97,7 +97,7 @@ Edit Group                              |  Link Mobile Device                   
 
 -4. Navigate back to the Mobile App `Home` page (you should still be connected to the desired SNOdar sensor) to `Register` the specific SNOdar and `Enable` the SNOLOG cloud upload.
 
--5. Toggle the [Cloud](images/cloud_disable_enable.png) icon to `Register` and watch the LEDs on the SNOdar. If they blink __Red-Green__ repeatedly then the API Key is correct; however, if they just blink __RED__ you must restart the Mobile App and try to `Register` again until you see the __Red-Green__ sequence. Next, toggle the `Cloud` icon again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and thus, be enabled.
+-5. Toggle the `[Cloud](images/cloud_disable_enable.png)` icon to `Register` and watch the LEDs on the SNOdar. If they blink __RED-GREEN__ repeatedly then the API Key is correct; however, if they just blink __RED__ you must restart the Mobile App and try to `Register` again until you see the __RED-GREEN__ sequence. Next, toggle the `Cloud` icon again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and thus, be enabled.
 
 Toggle                                  |  Register                              | Toggle                                  | Enable                    
 :--------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:
