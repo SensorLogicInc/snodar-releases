@@ -97,13 +97,13 @@ Edit Group                              |  Link Mobile Device                   
 
 -4. Navigate back to the Mobile App `Home` page (you should still be connected to the desired SNOdar sensor) to `Register` the specific SNOdar and `Enable` the SNOLOG cloud upload.
 
--5. Toggle the `[Cloud](images/cloud_disable_enable.png)` icon to `Register` and watch the LEDs on the SNOdar. If they blink __RED-GREEN__ repeatedly then the API Key is correct; however, if they just blink __RED__ you must restart the Mobile App and try to `Register` again until you see the __RED-GREEN__ sequence. Next, toggle the `Cloud` icon again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and thus, be enabled.
+-5. Toggle the [`Cloud`](images/cloud_disable_enable.png) icon to `Register` and watch the LEDs on the SNOdar. If they blink __RED-GREEN__ repeatedly then the API Key is correct; however, if they just blink __RED__ you must restart the Mobile App and try to `Register` again until you see the __RED-GREEN__ sequence. Next, toggle the [`Cloud`](images/cloud_disable_enable.png) icon again to `Enable`.  The icon will turn from white (with a diagonal line) to green (with an arrow pointing up) and thus, be enabled.
 
 Toggle                                  |  Register                              | Toggle                                  | Enable                    
 :--------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:
 ![](images/mobile_cloud_enable_1.PNG)   |  ![](images/mobile_cloud_register.PNG) |  ![](images/mobile_cloud_enable_1.PNG)  |  ![](images/mobile_cloud_enable_2.PNG)  
 
--6. Finally, the [Cloud](images/cloud_disable_enable.png) icon will display as `Enabled`, indicating the Gateway is now uploading a SNOLOG from the desired SNOdar, based on the configured `Interval Time` requested in the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM).
+-6. Finally, the [`Cloud`](images/cloud_disable_enable.png) icon will display as `Enabled`, indicating the Gateway is now uploading a SNOLOG from the desired SNOdar, based on the configured `Interval Time` requested in the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM).
 
 ![](images/mobile_cloud_enabled.PNG)
 
@@ -118,18 +118,18 @@ Toggle                                  |  Register                             
     - Is the SNOdar powered?
     - Has the SNOdar been configued and setup properly via the [Setup Wizard](https://www.youtube.com/embed/s7zSW9LP-iM)?
     - Check that the Bluetooth communication is working by connecting with the Mobile app via your mobile device.
-    - Has the SNOdar been registered, is the [Cloud](images/cloud_disable_enable.png) icon enabled?
+    - Has the SNOdar been registered, is the [`Cloud`](images/cloud_disable_enable.png) icon enabled?
 3. What does it mean if the BLE LED turns __Cyan__ -> __Magenta__?  
     - The unit is performing a firmware update over-the-air (OTA); let it finish.
 4. What does it mean if the __BLUE__ BLE LED blinks rapidly?  
-    - This indicates a SNOLOG is being sent to the Cloud [snodar.io Dashboard](https://app.snodar.io/)!
+    - This indicates a SNOLOG is being sent to the cloud database [snodar.io Dashboard](https://app.snodar.io/)!
 5. What if everything seems correct, but the SNOLOG is still not rendering on the [Dashboard](https://app.snodar.io/)?
     - Reboot the SNOdar unit by to disconnecting the power for 5 seconds, then reconnecting.
     - Reboot the SNOdar by `Restarting` the unit via the Mobile App, from the `Home` screen, using the [Kebab Menu Icon](images/snodar_home_kebab.PNG)
 
     ![](images/snodar_restart.PNG)
 
-    - Toggle the [Cloud](images/cloud_disable_enable.png) icon twice, `Disable` then `Enable` again.
+    - Toggle the [`Cloud`](images/cloud_disable_enable.png) icon twice, `Disable` then `Enable` again.
 
     ![](images/mobile_cloud_enabled.PNG)
     
