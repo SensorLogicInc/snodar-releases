@@ -17,9 +17,16 @@ Google Play Store App                                                           
 
 ## Natural SNOdar Firmware Update via Mobile App
 
-- v0.9.3
+1. Get within Bluetooth range of both the SNOdar and Gateway units ($\leq 20$ meters).
+2. Connect to the SNOdar using the Mobile App
+3. Check for the latest updates and update naturally to the most current cloud released firmware: [snodar-v0.9.3](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.9.3-beta)
+4. Once this has rebooted, reconnect via the BT mobile app and __Force Gateway Firmware Update__
 
 ## Force Gateway Firmware Update
+
+1. Turn `On` Developer options in the main Settings Menu
+2. Navigate to the `UART` tab in the Sensor `View`
+3. Create two custom NUS commands to send to the SNOdar
 
 ### NUS Commands
 
