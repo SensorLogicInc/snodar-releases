@@ -4,7 +4,7 @@
 
 [Quick Start Video Guides](video_guides.md)
 
-[SNOdar Chairlift Gateway + SNOdar Cloud Connection Guide](gateway_cloud_connect_guide.md)
+[SNOdar + Chairlift Gateway Migration Guide](gateway_snodar_migration_guide.md)
 
 ## Power and Boot Sensor
 
