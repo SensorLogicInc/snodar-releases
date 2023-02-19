@@ -32,6 +32,9 @@ Google Play Store App                                                           
 
 2. Click the `Register` button to force the Gateway to upgrade firmware. This will allow the Gateway to access the new server endpoint and download the latest firmware.
 
+> Note:  
+> Ignore any old functionality alerts about an "active group link key" or "Cloud Mobile Link"
+
 ![](images/mobile_cloud_register.PNG)
 
 3. Watch the Gateway LEDs, as the BLE LED will breifly go Cyan then turn Magenta while it is downloading firmware. The download will take 4-78 minutes. If it is successful the unit will reboot itself, so both LEDs will turn off then come up as RED. The LTE LED should go Green in less than 30 seconds. 
