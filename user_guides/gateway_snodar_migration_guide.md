@@ -1,4 +1,4 @@
-# SNOdar + Chairlift Gateway Legacy Migration Guide
+# SNOdar + Chairlift Gateway Migration Guide
 
 [Back](../)
 
@@ -6,7 +6,7 @@
 
 ## Brief
 
-This document provides detailed instructions to migrate your SNOdar and LTE Chairlift Gateway over to the new Dashboard and Backend, [SNOfire Chairlift Dashboard](chairlift.snofire.io), from the existing Dashboard, [SNOdar Dashboard](app.snodar.io). 
+This document provides detailed instructions to migrate your SNOdar and LTE Chairlift Gateway over to the new Dashboard and Backend, [SNOfire Chairlift Dashboard](chairlift.snofire.io), from the existing legacy Dashboard, [SNOdar Dashboard](app.snodar.io). 
 
 New sensing metrics (e.g. Temp/Pressure/Humidity/Air Quality), lower data rates, Over-the-Air (OTA) firmware upgrades for both devices, seasonal data downloads, and new plotting and rendering are all available on the new Dashboard!
 
