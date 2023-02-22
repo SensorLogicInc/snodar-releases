@@ -54,9 +54,9 @@ b) Click the `Register` button to force the Gateway to upgrade firmware. This wi
 :-------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:
 ![](images/mobile_cloud_register_force.PNG)  | ![](images/mobile_cloud_confirm_force.PNG)  | ![](images/mobile_cloud_alert_force.PNG)
 
-c) Watch the Gateway LEDs, as the BLE LED will breifly go Cyan then turn Magenta while it is downloading firmware. The download will take 4-8 minutes. If it is successful the unit will reboot itself, so both LEDs will turn off then come up as RED. The LTE LED should go Green in less than 30 seconds. 
+c) Watch the Gateway LEDs, as the BLE LED will breifly go <span style="color:cyan">Cyan</span> then turn <span style="color:magenta">Magenta</span> while it is downloading firmware. The download will take 4-8 minutes. If it is successful the unit will reboot itself, so both LEDs will turn OFF then come up as <span style="color:red">Red</span>. The LTE LED should go <span style="color:green">Green</span> in less than 30 seconds. 
 
-d) If the unit immediately reboots after initiating this process or the LEDs both turn Yellow (Watchdog Reset), try Steps 1-3 again until it is successful.
+d) If the unit immediately reboots after initiating this process or the LEDs both turn <span style="color:yellow">Yellow</span> (Watchdog Reset), try Steps 1-3 again until it is successful.
 
 ### 3. Set Serial Number to Provision SNOdar
 
@@ -105,7 +105,7 @@ c) Under `Actions` dropdown choose `Manual Firmware Update` then choose the `<fw
 
 ![](images/fw_manual_update.png)
 
-d) Let this process complete, the SNOdar will reboot and flash Green.
+d) Let this process complete, and the SNOdar will reboot and the LEDs will flash <span style="color:green">Green</span> indicating successful diagnostics upon boot.
 
 
 ### 6. Set the Cloud Enable Icon to Green
