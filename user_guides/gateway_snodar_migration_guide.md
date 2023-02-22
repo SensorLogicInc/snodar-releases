@@ -39,26 +39,9 @@ Google Play Store App                                                           
 
 3. Watch the Gateway LEDs, as the BLE LED will breifly go Cyan then turn Magenta while it is downloading firmware. The download will take 4-78 minutes. If it is successful the unit will reboot itself, so both LEDs will turn off then come up as RED. The LTE LED should go Green in less than 30 seconds. 
 
-4. If the unit immediately reboots after initiating this process or the LEDs both turn Yellow (Watchdog Reset), try Steps 1-3 again until it is successful, then do a Manual SNOdar FW Update.
+4. If the unit immediately reboots after initiating this process or the LEDs both turn Yellow (Watchdog Reset), try Steps 1-3 again until it is successful.
 
-## Manual SNOdar Firmware Update via Mobile App
-
-1. Download the new SNOdar FW [snodar-v1.0.0](https://www.dropbox.com/s/lmt0zs7a14w5snn/snodar_secure_dfu_esb_v1.0.0.zip?dl=1) to your mobile device. 
-
-> Note:   
-> Some devices require you to rename the firmware file before it can be visible by the Mobile App
-
-2. Start the Mobile app and connect to the SNOdar. Open the specific SNOdar and navigate to the `Config` page.
-
-![](images/view_toolbar_config.png)
-
-3. Under `Actions` dropdown choose `Manual Firmware Update` then choose the v1.0.0 FW file you downloaded in Step 1.
-
-![](images/fw_manual_update.png)
-
-4. Let this process complete, the SNOdar will reboot and flash Green.
-
-5. Reconnect to the SNOdar via Bluetooth with the Mobile App and Set the Serial Number.
+5. When successfull, set the Serial Number and Cloud Enable.
 
 ### Set Serial Number to Provision SNOdar and Cloud Enable
 
@@ -80,9 +63,28 @@ The Cloud Icon will turn Green.
 
 ![](images/cloud_disable_enable.png)
 
-5. Finally, reboot the unit.
+5. Finally, reboot the unit, and then do a Manual SNOdar FW Update
 
 ![](images/snodar_restart.PNG)
+
+## Manual SNOdar Firmware Update via Mobile App
+
+1. Download the new SNOdar FW [snodar-v1.0.0](https://www.dropbox.com/s/lmt0zs7a14w5snn/snodar_secure_dfu_esb_v1.0.0.zip?dl=1) to your mobile device. 
+
+> Note:   
+> Some devices require you to rename the firmware file before it can be visible by the Mobile App
+
+2. Start the Mobile app and connect to the SNOdar. Open the specific SNOdar and navigate to the `Config` page.
+
+![](images/view_toolbar_config.png)
+
+3. Under `Actions` dropdown choose `Manual Firmware Update` then choose the v1.0.0 FW file you downloaded in Step 1.
+
+![](images/fw_manual_update.png)
+
+4. Let this process complete, the SNOdar will reboot and flash Green.
+
+5. Reconnect to the SNOdar via Bluetooth with the Mobile App and Set the Serial Number.
 
 ### Claim Serial Number on new [Dashboard](chairlift.snofire.io)
 
