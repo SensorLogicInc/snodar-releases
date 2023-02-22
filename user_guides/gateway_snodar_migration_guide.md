@@ -6,11 +6,11 @@
 
 ## Brief
 
-The premise of this document is to provide detailed instructions to migrate your SNOdar and LTE Chairlift Gateway over to the new Dashboard and Backend, [SNOfire Chairlift Dashboard](chairlift.snofire.io), from the existing Dashboard, [SNOdar Dashboard](app.snodar.io). 
+This document provides detailed instructions to migrate your SNOdar and LTE Chairlift Gateway over to the new Dashboard and Backend, [SNOfire Chairlift Dashboard](chairlift.snofire.io), from the existing Dashboard, [SNOdar Dashboard](app.snodar.io). 
 
 New sensing metrics (e.g. Temp/Pressure/Humidity/Air Quality), lower data rates, Over-the-Air (OTA) firmware upgrades for both devices, seasonal data downloads, and new plotting and rendering are all available on the new Dashboard!
 
-[Create an Account](https://chairlift.snofire.io/auth) on the new Dashboard and follow the instructions below. You will need to access your units in the field and use the Bluetooth (BT) mobile app to complete. The entire process should only take 10-15 minutes.
+[Create an Account](https://chairlift.snofire.io/auth) on the new Dashboard and follow the instructions below. You will need to access your field units and use the Mobile App to complete. Once within Bluetooth (BT) range, the process should only take 10-15 minutes.
 
 ## Dependencies
 
@@ -24,16 +24,16 @@ Google Play Store App                                                           
 
 ## Migration Instructions
 
-> Warning:   
-> Following the below steps in order is very imporant!
+> __Warning__   
+> Following the steps below in order is critical!
 
 ### 1. Natural SNOdar Firmware Update via Mobile App
 
-a) Travel to within Bluetooth range of both the SNOdar and Gateway units ($\leq 20$ meters).
+a) Get within BT range of both the SNOdar and Gateway units, ($\leq 20$ meters).
 
-b) Connect to the SNOdar using the Mobile App.
+b) Connect to the SNOdar using the Mobile App via BT.
 
-C) Check for the latest updates and update naturally, using the FW update dropdown, to the most current cloud released firmware: [snodar-v0.9.4](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.9.4-beta)
+c) Check for the latest updates and update naturally, using the FW update dropdown, to the most current cloud released firmware: [snodar-v0.9.4](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.9.4-beta)
 
 ![](images/dfu_check_update.png)
 
@@ -47,7 +47,7 @@ a) Click on the white/green `Cloud Icon` and a message appears to either `Regist
 
 b) Click the `Register` button to force the Gateway to upgrade firmware. This will allow the Gateway to access the new server endpoint and download its latest firmware. Continue to click `Confirm` on the next page and `OK` on the Alert Page.
 
-> Note:  
+> __Note__   
 > Ignore any alerts about an "active group link key" or "Cloud Mobile Link" as this is  depricated functionality and messaging.
 
  Register                                    | Confirm                                     | Alert
@@ -94,7 +94,7 @@ c) Go to new `{} Developer` dropdown and enable `Dev Mode` with the toggle switc
 
 a) Download the new SNOdar FW [snodar-v1.0.0](https://www.dropbox.com/s/lmt0zs7a14w5snn/snodar_secure_dfu_esb_v1.0.0.zip?dl=1) to your mobile device. 
 
-> Note:      
+> __Note__          
 > Some devices require you to rename the firmware file before it can be visible by the Mobile App when choosing the file
 
 b) Start the Mobile app and connect to the SNOdar. Open the specific SNOdar and navigate to the `Config` page.
@@ -112,7 +112,7 @@ d) Let this process complete, the SNOdar will reboot and flash Green.
 
 a) Reconnect to the SNOdar via the mobile app and toggle the Cloud Icon button again and choose `Enable` so data will be automatically sent to the backend database.
 
-![](images/mobile_cloud_enable_2.PNG)
+![](images/mobile_cloud_enable_force.PNG)
 
 b) The Cloud Icon will turn Green.
 
@@ -134,4 +134,4 @@ c) Enter the 6-digit Serial Number and hit `Go`.
 
 ![](images/legacy_claim_snodar_go.png)
 
-d) Your SNOdar should be claimed and viewable on the new Dashboard within 24 hours.
+d) Your SNOdar should be claimed and viewable on the new Dashboard within __24 hours__.
