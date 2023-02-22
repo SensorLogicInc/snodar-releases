@@ -14,7 +14,7 @@ New sensing metrics (e.g. Temp/Pressure/Humidity/Air Quality), lower data rates,
 
 ## Dependencies
 
-- SNOdar Firmware: [snodar-v0.9.4](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.9.4-beta) to force update
+- SNOdar Firmware: [snodar-v0.9.4](https://github.com/SensorLogicInc/snodar-releases/releases/tag/0.9.4-beta) to force Gateway update
 - SNOdar Firmware: [snodar-v1.0.0](https://www.dropbox.com/s/lmt0zs7a14w5snn/snodar_secure_dfu_esb_v1.0.0.zip?dl=1) to migrate to new dashboard
 - Mobile App: `SNOdar Snow Depth v0.4.6` or later (update this in your mobile app store of choice)
 
@@ -29,7 +29,7 @@ Google Play Store App                                                           
 
 ### 1. Natural SNOdar Firmware Update via Mobile App
 
-a) Get within BT range of both the SNOdar and Gateway units, ($\leq 20$ meters).
+a) Get within BT range of both the SNOdar and Gateway units, $\leq 20$ meters.
 
 b) Connect to the SNOdar using the Mobile App via BT.
 
@@ -124,7 +124,7 @@ c) Reboot the unit from the mobile app.
 
 ### 7. Claim Serial Number on new [Dashboard](chairlift.snofire.io)
 
-a) Navigate to the [Chairlift Dashboard](chairlift.snofire.io) and log in to your account (or Create an Account)
+a) Navigate to the [Chairlift Dashboard](chairlift.snofire.io) and log in to your account (or Create an Account).
 
 b) Navigate to the `Legacy: Claim a SNOdar` page, see the left side nav bar.
 
