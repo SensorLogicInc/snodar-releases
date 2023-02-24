@@ -22,14 +22,22 @@ Google Play Store App                                                           
 :----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 [![](../assets/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.snodar)   | [![](../assets/images/apple-app-store-badge.png)](https://apps.apple.com/us/app/snodar/id1584974884)
 
-## Migration Instructions
+## Migration Steps
 
 > __Warning__   
 > Following the steps below in order is critical!
 
+1. [Natural SNOdar Firmware Update to v0.9.4](#1-natural-snodar-firmware-update-via-mobile-app)
+2. [Force Gateway Firmware Update](#2-force-gateway-firmware-update)
+3. [Set Serial Number](#3-set-serial-number-to-provision-snodar)
+4. [Enable _Developer_ Mode](#4-enable-developer-mode)
+5. [Manual SNOdar Firmware Update to v1.0.0](#5-manual-snodar-firmware-update-via-mobile-app)
+6. [Set the Cloud Enable Icon](#6-set-the-cloud-enable-icon-to-green)
+7. [Claim Serial Number on new Dashboard](#7-claim-serial-number-on-new-dashboard)
+
 ### 1. Natural SNOdar Firmware Update via Mobile App
 
-a) Get within BT range of both the SNOdar and Gateway units, $\leq 20$ meters.
+a) Get within BT range of both the SNOdar and Gateway units, &#x2264; 20 meters.
 
 b) Connect to the SNOdar using the Mobile App via BT.
 
@@ -106,7 +114,6 @@ c) Under `Actions` dropdown choose `Manual Firmware Update` then choose the `<fw
 ![](images/fw_manual_update.png)
 
 d) Let this process complete, and the SNOdar will reboot and the LEDs will flash <span style="color:green">Green</span> indicating successful diagnostics upon boot.
-
 
 ### 6. Set the Cloud Enable Icon to Green
 
