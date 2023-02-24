@@ -6,7 +6,7 @@
 
 ## Brief
 
-This document provides detailed instructions to migrate your SNOdar and LTE Chairlift Gateway over to the new Dashboard and Backend, [SNOfire Chairlift Dashboard](chairlift.snofire.io), from the existing legacy Dashboard, [SNOdar Dashboard](app.snodar.io). 
+This document provides detailed instructions to migrate your SNOdar and LTE Chairlift Gateway over to the new Dashboard and Backend, [SNOfire Chairlift Dashboard](https://chairlift.snofire.io/), from the existing legacy Dashboard, [SNOdar Dashboard](https://app.snodar.io). 
 
 New sensing metrics (e.g. Temp/Pressure/Humidity/Air Quality), lower data rates, Over-the-Air (OTA) firmware upgrades for both devices, seasonal data downloads, and new plotting and rendering are all available on the new Dashboard!
 
@@ -129,9 +129,9 @@ c) Reboot the unit from the mobile app.
 
 ![](images/snodar_restart.PNG)
 
-### 7. Claim Serial Number on new [Dashboard](chairlift.snofire.io)
+### 7. Claim Serial Number on new Dashboard
 
-a) Navigate to the [Chairlift Dashboard](chairlift.snofire.io) and log in to your account (or Create an Account).
+a) Navigate to the [Chairlift Dashboard](https://chairlift.snofire.io) and log in to your account (or Create an Account).
 
 b) Navigate to the `Legacy: Claim a SNOdar` page, see the left side nav bar.
 
@@ -141,4 +141,4 @@ c) Enter the 6-digit Serial Number and hit `Go`.
 
 ![](images/legacy_claim_snodar_go.png)
 
-d) Your SNOdar should be claimed and viewable on the new Dashboard within __24 hours__.
+d) Your SNOdar should be claimed and viewable on the new Dashboard within __12-24 hours__.
