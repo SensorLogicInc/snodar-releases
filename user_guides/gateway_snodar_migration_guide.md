@@ -103,8 +103,17 @@ c) Go to new `{} Developer` dropdown and enable `Dev Mode` with the toggle switc
 a) Download the new SNOdar FW [snodar-v1.0.0](https://www.dropbox.com/s/lmt0zs7a14w5snn/snodar_secure_dfu_esb_v1.0.0.zip?dl=1) to your mobile device. 
 
 > __Note__          
-> 1. Some devices require you to rename the firmware file before it can be visible by the Mobile App when choosing the file
-> 2. The manual update can only be done with an __Android__ device at this time. If using an iOS device, download the following app to apply the v1.0.0 manual firmware update: [nRF Connect for Mobile](https://apps.apple.com/gb/app/nrf-connect-for-mobile/id1054362403)
+> Some mobile device settings require you to rename the firmware file before it can be visible by the Mobile App when choosing the file.
+
+> __Note__  
+> The manual FW feature in the SNOdar Mobile App can only be done with an __Android__ device at this time. If using an iOS device, download the [nRF Toolbox](https://apps.apple.com/us/app/nrf-toolbox/id820906058) app to manually apply the v1.0.0 FW update; otherwise, skip to __b)__ below.
+> 1. On your iOS device, install and open the nRF Toolbox App
+> 2. Toward the bottom of the left side of the screen choose `DFU`
+> 3. Choose the `Connect` button on the right side
+> 4. Hit the refresh icon at the upper right of the screen to see the SNOdar device
+> 5. Choose the SNOdar from the list
+> 6. Click `Browse` and choose the v1.0.0 downloaded firmware file
+> 7. Click `Update` to start the firmware update, then continue to __d)__ below
 
 b) Start the Mobile app and connect to the SNOdar. Open the specific SNOdar and navigate to the `Config` page.
 
